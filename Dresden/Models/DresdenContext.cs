@@ -25,6 +25,21 @@ namespace Dresden.Models
                 .HasMany(s => s.Stunts)
                 .WithOne(t => t.Skill)
                 .IsRequired();
+
+            modelBuilder
+                .Entity<Skill>()
+                .Property(s => s.Id)
+                .ValueGeneratedOnAdd();
+
+            modelBuilder
+                .Entity<Trapping>()
+                .Property(s => s.Id)
+                .ValueGeneratedOnAdd();
+
+            modelBuilder
+                .Entity<Stunt>()
+                .Property(s => s.Id)
+                .ValueGeneratedOnAdd();
         }
     }
 }

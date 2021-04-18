@@ -1,0 +1,1002 @@
+[
+    {
+        "name": "Alertness",
+        "description": "Alertness is a measure of your character’s passive awareness—his ability to stay on his toes and react to sudden changes in his environment. In short, it is the perception skill to notice things that you are not looking for. High Alertness characters strike early in a fight, tend to pick up on details of a scene simply by entering it, and are rarely surprised. They include bodyguards, outdoorsmen, and sneaky criminals.",
+        "trappings": [
+            {
+                "name": "Avoiding Surprise",
+                "description": "Whenever the trap is sprung in an ambush, you can make one final check the Stealth of your attacker in order to see if you are surprised. If you fail this check, roll all your defenses as if they were Mediocre for the first exchange. If you succeed, you may defend normally at your full skill levels."
+            },
+            {
+                "name": "Combat Initiative",
+                "description": "Alertness determines initiative (order of action) in any physical conflict. minimize the dierolling, your group can use the listed value for everyone’s Alertness to determine the order of everyone’s actions."
+            },
+            {
+                "name": "Passive Awareness",
+                "description": "You will rarely ask to roll Alertness—if you are actively looking for something, Investigation is usually more appropriate. Alertness is reactive perception. That is, Alertness is more appropriate for things that you do not expect or are not looking for—such as the spiked pit trap in the hallway you’re casually walking through. It’s a skill that, typically, the GM calls for you to roll."
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Corner of My Eye",
+                "description": "When successfully rolling Alertness passively to pick up on details, gain an additional 2 shifts. This reflects the ability to pick up on more pieces of information, but it does not improve the depth of that information (which would take things into the realm of Investigation)."
+            },
+            {
+                "name": "On My Toes",
+                "description": "Gain +2 to Alertness when using it to determine initiative."
+            },
+            {
+                "name": "Paranoid? Probably",
+                "description": "Gain +2 to Alertness when rolling against surprise."
+            }
+        ]
+    },
+    {
+        "name": "Athletics",
+        "description": "Athletics measures your general physical capability—except for raw power (which is Might) and stamina (which is Endurance). Athletics covers running, jumping, climbing, and other broadly physical activities you might find in a track and field event. Characters with high Athletics move further and faster than the rest of us, making it difficult to catch or hit them in a fight—think of athletes, soldiers, and outdoorsmen.",
+        "trappings": [
+            {
+                "name": "Climbing",
+                "description": "Athletics is the skill used for climbing. The GM sets the difficulty for hard it is to climb a given obstacle. At the GM’s option, you may use shifts to speed the process if you succeed."
+            },
+            {
+                "name": "Dodging",
+                "description": "You can use Athletics as a defensive skill to respond to physical attacks. This works very well in conjunction with taking a full defense action (yielding a +2 to the roll). The one important thing to note is that taking a full defense action means that you can’t use Athletics for other things, like sprinting—though as with all skills, you can move one zone as a supplemental action by taking –1 to the roll for your main action."
+            },
+            {
+                "name": "Falling",
+                "description": "When you fall, you may roll Athletics to try to limit the severity of result."
+            },
+            {
+                "name": "Jumping",
+                "description": "This is not the Olympics—jumping is something you do to leap obstacles or span bottomless chasms, and in those situations the GM sets a fixed difficulty for characters to meet or exceed. Generally, that difficulty is the bare minimum that clears the distance, so beating that by a few shifts is a good idea. Outside of that, jumping is often considered an extension of normal movement."
+            },
+            {
+                "name": "Sprinting",
+                "description": "You can use Athletics to move faster by taking a sprint action. Normally, you can only move one zone as a supplemental action by taking  –1 to the roll for your main action. If you spend your entire action moving, you are sprinting; rolling Athletics against a target difficulty of Mediocre, you can cross a number of zones and borders equal to or less than the total shifts of effect. If you get no shifts on your roll, you can still move one zone as long as there are no borders. See page 212 for additional details."
+            },
+            {
+                "name": "Other Physical Actions",
+                "description": "Athletics is often the \"when in doubt\" physical skill, and it can get a lot of use. Sometimes there’s confusion about when to use Athletics and when to use Might. As a rule of thumb, Athletics is used to move yourself, while Might is used to move other things and people. When an action calls for both, they might modify one another. If there is no clear indication which should be primary, default to Athletics as primary and Might as the modifying skill."
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Acrobat",
+                "description": "Gain +1 on Athletics when using it to survive a fall. Also, gain +1 to attempts to dodge ranged attacks (throwing and guns), so long as you describe it colorfully"
+            },
+            {
+                "name": "Fleet of Foot",
+                "description": "When sprinting, gain a +2 to Athletics."
+            },
+            {
+                "name": "Human Spider",
+                "description": "Difficult surfaces aren’t much trouble to scale; reduce all climbing difficulties by up to 2."
+            },
+            {
+                "name": "Mighty Leap",
+                "description": "Any borders that your character chooses to clear by jumping are reduced by up to 2."
+            },
+            {
+                "name": "Too Fast to Hit",
+                "description": "When making a full defense, take no penalty for moving one zone and gain an additional +1 to the roll (for a total of +3) when making such a move."
+            }
+        ]
+    },
+    {
+        "name": "Burglary",
+        "description": "The ability to overcome security systems, from alarms to locks, falls under the auspices of Burglary. This also includes knowledge of those systems and the ability to assess them. Without a lucky break, a criminal with only Stealth and Deceit will find himself limited to small-thievery, while one who adds Burglary to his repertoire will soon be pursuing bigger targets.Characters with a high Burglary skill include burglars, private eyes, and even some cops.",
+        "trappings": [
+            {
+                "name": "Casing",
+                "description": "You can use Burglary as a very specialized perception skill, specifically to assess the weaknesses and strengths of a potential target. Here, you try to determine the existence of unobvious or hidden aspects using assessment. Declaration may occur as well if you come up with an entertaining new aspect to place on the target of your future burglary (like Security Camera \"Blind Zone\"). Thus, either the GM can indicate you’ve discovered some flaw, or you can make a declaration about a flaw in the security that you intend to exploit or defeat. When you make a declaration, Casing follows the same guidelines as the Declaring Minor Details trapping for Scholarship but is limited to security facts (including potential escape routes)."
+            },
+            {
+                "name": "Infiltration",
+                "description": "Given an opportunity to case an intended target (above), you are much more prepared to infiltrate that location. You can invoke known aspects on the scene. In addition, you can use your Burglary skill to complemen any skills you use on targets you’ve had a chance to study and prepare for. Thus, Burglary may complement your Stealth and even, in certain circumstances, your social skills such as Contacts or Deceit."
+            },
+            {
+                "name": "Lockpicking",
+                "description": "You have a talent for defeating security systems, from simple locks to complex electronics. Naturally, these offer a sliding scale of difficulty, and the tougher targets are often the focus of the aspects you choose to reveal or declare when you case the place. Further, your Craftsmanship or Scholarship skills might modify Burglary when dealing with particularly intricate mechanical or computerized security targets."
+            }
+        ],
+        "stunts": [
+            {
+                "name": "The Big Picture",
+                "description": "When casing a target with Burglary, you gain the ability to define an additional aspect about the target (such as Broken Window Latch) when you succeed on the roll, for a total of two aspects."
+            },
+            {
+                "name": "Cat-Burglar",
+                "description": "You’re a thief with catlike tread; you may use Burglary instead of Stealth for Hiding or Skulking."
+            },
+            {
+                "name": "Hacker",
+                "description": "You may use your Burglary skill (instead of Scholarship) to do research with computers as per Scholarship’s Computer Use trapping."
+            },
+            {
+                "name": "Hairpin Maestro",
+                "description": " Poor tools are no trouble when picking locks. Any increase to difficulty due to poor tools (such as having only a hairpin and a business card) is reduced by up to two."
+            },
+            {
+                "name": "Safecracker",
+                "description": "Any lockpicking effort takes place two steps faster than usual on the time table."
+            }
+        ]
+    },
+    {
+        "name": "Contacts",
+        "description": "The Contacts skill represents who you know and how good you are at finding things out from them. You may know a guy, or know a guy who knows a guy, or maybe you just know the right questions to ask in the right places. Whatever your methods, you can find things out just by asking around. Characters with a high Contacts skill are connected, always with an ear to the ground, their fingers on the pulse of the city. They include reporters, private eyes, and spies. The Contacts skill doesn’t work in a vacuum—you need to be able to get out and talk to people for it to be useful; when that isn’t possible, neither is the skill. Contacts are also limited by familiarity. Finding yourself in an entirely unfamiliar environment means drastically increased difficulties (+4 or more) on your Contacts rolls. For every week you stay in the area and expand your social networks, the familiarity penalty is reduced by one",
+        "trappings": [
+            {
+                "name": "Gathering Information",
+                "description": "As with the answers and research trappings from Scholarship (page 140), gathering information begins with a question. The difference here is that you’re posing the question to your contacts—you go out and talk to people, trying to learn the answer to a question like, \"Who’s trying to kill me?\" Describe where you are going to talk to folks (usually \"the street\"), and the GM sets the difficulty. Roll normally, and then the GM explains what you discovered. If the roll fails, then you may take extra time to try to succeed. This is much like scholarly research, but instead of needing a library, you need to talk to people.  These people must have the right level of access to answer the question (this corresponds to the \"quality\" of the library). If you are being shut out for one reason or another, no amount of dogged persistence through time investment is going to help. When that happens, it usually means there’s another problem you need to solve first. One important warning about authenticity— being the most informed guy and knowing all the latest gossip aren’t necessarily the same thing. The Contacts skill discovers what people know, and people always have their own biases. Information is only as good as its source. Your use of Contacts rarely tests the truth of the information provided, save by the discovery—through several sources—that contradictory answers are coming in. If you want to determine the truthfulness of the information you’re uncovering, that means more in-depth conversation with individuals...and it may involve using Empathy, Rapport, Deceit, Intimidation, and more. Finally, consider that it is difficult to use the Contacts skill secretly. Rolling the Contacts skill usually indicates that you are going out and talking to people. If you’re asking some particularly sensitive questions, word is going to get back to the people who have the real, deeper answers—people who might see shutting you up as the best way to keep their secrets."
+            },
+            {
+                "name": "Getting the Tip-Off",
+                "description": "Contacts also keep you apprised of the general state of things, sometimes without you going out and making an active effort. In this way, the Contacts skill acts as a sort of social Alertness, keeping you abreast of things that might be coming your way. It’s far from foolproof and, like Alertness, the GM is usually the one to call for a roll—you can’t go out looking for a tip-off, though you can tell the GM that you’re going out and talking to your contacts just to check on what’s up, which is a good hint that you’d like a tip-off. "
+            },
+            {
+                "name": "Knowing People",
+                "description": "If you have a strong Contacts skill, you know a wide variety of people and have at least a cursory connection with virtually any organization in the places you live and work (sometimes even those where you don’t). Deeper connections may come about through concerted effort or the application of stunts. You can roll Contacts as a declaration in any scene to establish that you have a contact at hand, whether in a certain location or in a certain group of people. The more aspects (or other prior established context) that you have relevant to the location or group, the easier the declaration will be."
+            },
+            {
+                "name": "Rumors",
+                "description": "Contacts are also useful for planting rumors, not just for ferreting them out. At its simplest, you can use Contacts to just \"get the word out\" effectively and quickly, but you can also use it to change some of the public’s perspective about someone or something over time. Tell the GM what rumor you want to plant, and she assigns bonuses or penalties based on how preposterous or reasonable the rumor is. The GM uses the final roll to determine the result of the rumor. It’s worth noting: your roll is also the target for someone else’s Contacts roll to find out who has been spreading rumors—so be careful! The most common effect of a successful Contacts roll to plant a rumor is a \"sticky\" temporary aspect. This might even be treated as a social attack in some circumstances."
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Ear to the Ground",
+                "description": "You have your fingers on the pulse of things, with plenty of friends who can give you a heads up. The difficulty of any Getting the Tip-Off roll is reduced by two."
+            },
+            {
+                "name": "I Know Just the Guy",
+                "description": "When you’re looking to gather some information from your network of contacts, you have unerring instincts for finding the right person, fast. When using the Gathering Information trapping, your efforts are at a +1 and are 1 time increment faster."
+            },
+            {
+                "name": "Rumormonger",
+                "description": "You know exactly how to get the word out, gaining a +2 on your efforts to spread rumors."
+            }
+        ]
+    },
+    {
+        "name": "Conviction",
+        "description": "Conviction represents your strength of belief. This could represent your quiet confidence in yourself, your family, and your friends, or the certitude of your faith in a higher (or, for nasty sorts, infernal) power such as magic or God. No spellcaster ever gets much power without believing in his ability to do magic, and no holy man gives the forces of darkness much pause without Conviction. Characters with a high Conviction are powerful, grounded individuals, whose beliefs make them able to weather any storm. They include holy people, patriots, and wizards. Conviction is one of the three cornerstone skills for effective spellcasting, along with Discipline and Lore. The Mental Fortitude trapping also adds to your mental stress track.",
+        "trappings": [
+            {
+                "name": "Acts of Faith",
+                "description": "Roll Conviction whenever you’re called upon to test the strength of your beliefs. When you are under a specific mental or social attack designed to undermine your faith (whether that’s in God, your magic, your friends, or whatever you might believe), you can use Conviction instead of Discipline to defend."
+            },
+            {
+                "name": "Mental Fortitude",
+                "description": "Whether facing torture or confronting something scary, Conviction is how you draw your strength to survive fear and other psychological distress—combined with strong Discipline, your Conviction strengthens the walls of the fortress of your mind. Used this way, Conviction is a passive ability, representing your mental \"toughness\" under such circumstances. As such, a higher-than-default rating in Conviction improves your ability to handle mental stress, giving you more than the default number of stress boxes (2) if you take this skill: (Mediocre: 2, Average|Fair: 3, Good|Great: 4, Superb+: 4 plus one additional mild mental consequence for each two full levels above good."
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Blessed Words",
+                "description": "The strength of your faith alone allows you to give others pause. You may use your Conviction skill to perform a block in physical conflict, potentially preventing someone from making a conflict action against you."
+            },
+            {
+                "name": "Person of Conviction",
+                "description": "Your social presence is tightly rooted in your identity as a person of deep faith. You may use Conviction instead of Presence to determine your social stress capacity"
+            },
+            {
+                "name": "Resilient Self-Image",
+                "description": "Your sense of self is strong, enabling you to endure more psychological punishment than most. You may take two additional mild mental consequences"
+            },
+            {
+                "name": "Tower of Faith",
+                "description": "Strongly held beliefs enable you to protect your mind from the aggression of others. Provided you get a chance to pray or otherwise call upon your faith, gain Armor:1 against any social or mental stress in a scene"
+            }
+        ]
+    },
+    {
+        "name": "Craftsmanship",
+        "description": "Craftsmanship is the understanding of how stuff works, reflecting your practical know-how when it comes to using tools effectively. While Craftsmanship can be complemented by Scholarship, it can just as easily be the result of a lot of hours of getting your hands dirty and having a natural feel for how things work. Characters with high Craftsmanship are handy around the house and under the hood of a car; they are always helpful when a moody wizard shorts out your GPS. They include inventors, mechanics, and carpenters.",
+        "trappings": [
+            {
+                "name": "Breaking",
+                "description": "Craftsmanship is also the skill for unmaking things (in a mundane, practical sense). Given time and tools, a craftsman can topple virtually any building, structure, or device. In those circumstances, you can use Craftsmanship to attack these things directly and deal stress or consequences to them (see page 320). In addition, you may use Craftsmanship to set up attacks and maneuvers against another target using the sabotaged building, structure, or device—such as setting up a bridge to collapse when someone’s walking across it."
+            },
+            {
+                "name": "Building",
+                "description": "You can use Craftsmanship to build something—provided you have a decent understanding of how to build it, as well as plenty of needed tools, materials, and time. The less you have of any of these things, the higher the difficulty to get it done. Craftsmanship is primarily used with declarations"
+            },
+            {
+                "name": "Fixing",
+                "description": "Craftsmanship can be used to repair devices — again, if you have the time, materials, and the right tools."
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Car Mechanic",
+                "description": "You know the ins and outs of cars like nobody’s business. Gain a +2 on Craftsmanship whenever dealing with a car or truck and a +1 on other personal vehicles (boats, motorcycles, small aircraft)."
+            },
+            {
+                "name": "Demolitions Training",
+                "description": "You are trained in the effective use of explosives (this is a new skill trapping; most people can’t handle explosives without training). You may use your Craftsmanship skill to place and set explosives appropriately. This allows you to do attacks and maneuvers against structures, and your skill roll also sets the difficulty for any characters attempting to avoid damage from an explosive that you’ve placed. Note that to hide an explosive you will still need to use the Deceit skill."
+            },
+            {
+                "name": "Junkyard Artiste",
+                "description": "You create art by working with your hands and a workman’s tools—works of sculpture, perhaps, or other kinds of modern, \"industrial\" art. You may use Craftsmanship instead of Performance to create these works of art."
+            },
+            {
+                "name": "Jury-Rigger",
+                "description": "You have a talent for improvising with available materials. When jury-rigging, your repairs last two scenes longer than usual."
+            },
+            {
+                "name": "Monkey with a Wrench",
+                "description": "Sure, building and fixing is nice, but taking things apart is more satisfying. When using Craftsmanship to take something apart, gain a +1 on the effort and get it disassembled one time increment faster"
+            }
+        ]
+    },
+    {
+        "name": "Deceit",
+        "description": "Deceit is the ability to lie. Be it through word or deed, it’s the ability to convey falsehoods convincingly. Characters with a high Deceit can easily seem much different than they actually are. They are masters of misdirection and they paint a sheen of seeming truth over the darkest lies. High Deceit characters include grifters, spies, and politicians.",
+        "trappings": [
+            {
+                "name": "Cat and Mouse",
+                "description": "You can use the Deceit skill for more than just dodging attention—use it to riposte a social query with a web of deception. When someone else initiates a social conflict, you may use your Deceit as a social attack skill, representing particularly convincing lies as consequences on your target. For example, if the social conflict is a tense business negotiation, you might inflict Thinks I Have Honest Intentions as a consequence, potentially allowing you to exert influence over your target in the future. This is a dangerous game. You are opting not to put your False Face Forward (see below), which would keep things on a safer, defensive footing. Instead, you’re going on the attack, making an active, aggressive attempt to turn the tables on your opponent—missteps are quite possible. If your opponent ultimately defeats you in this conflict, the truth will be revealed in some way. However, if you outclass your opponent significantly, this can be a powerful technique."
+            },
+            {
+                "name": "Disguise",
+                "description": "Deceit covers disguises, using your Deceit skill against anyone’s attempts to penetrate your disguise. Such disguises are dependent upon what props are available, and they don’t hold up to intense scrutiny (specifically, an Investigation roll) without the use of stunts (representing your deep expertise at disguise), but they’re fine for casual inspection (i.e., Alertness rolls). You  may use the Performance skill to modify Deceit when attempting to pull off the disguised identity"
+            },
+            {
+                "name": "Distraction and Misdirection",
+                "description": "You may use Deceit to try to hide small objects and activities in plain sight and to oppose any perception check for something that you could try to hide, misplace, or distract attention from. When you use this skill to hide something, your skill roll indicates the difficulty of any Alertness or Investigation rolls to discover it. This trapping is at the core of stunts that extend the Deceit skill to do things like stage magic or pick-pocketing. Without such stunts, you may attempt those sorts of things but only in the simplest fashion possible and against markedly increased difficulties (typically at least two or more steps harder)"
+            },
+            {
+                "name": "False Face Forward",
+                "description": "You may opt to use Deceit instead of Rapport to as a defense in social conflicts—such as when defending against someone using Empathy to get a \"read\" on you, or facing down an insult— to lull an opponent into underestimating you. This defense roll is modified by the Rapport skill. If you lose this defense roll, then your opponent may proceed as usual—in attempting to hide yourself, you have blundered and revealed a truth, shown an unintentional reaction, or something similar. If you win the defense, however, you may make your successful defense look like a failure. When you do this, you can provide false information to the would-be \"victor\" (such as, \"Wow! That insult really struck home!\" when it didn’t). In the case of an Empathy read attempt, you may provide a false aspect to the reader, sending him off with an utterly fabricated notion of you. When he later tries to take advantage of an aspect that he falsely thinks is there, it can end up being a waste of a fate point or worse!"
+            },
+            {
+                "name": "Falsehood and Deception",
+                "description": "For simple deceptions, all that’s necessary is a contest between Deceit and an appropriate skill (usually Empathy, Alertness, or Investigation, depending on the circumstance). For deeper deceptions—like convincing someone of a lie or selling someone the Brooklyn Bridge — a social conflict is appropriate, complete with Deceit attacks and dealing social stress. Sometimes, Deceit is the undercurrent rather than the forefront of an action; as such, the skill may modify, restrict, or complement another (usually social) skill’s use"
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Document Forging",
+                "description": "You are trained in the forging of official documents (such as ID, birth records, and the like) or letters. You can roll Deceit to create these documents, but using them or planting them where they will be of use (like in a library or government office) might require the use of other skills, such as Burglary or Stealth. Anyone exposed to these documents gets an Alertness or Scholarship roll to spot the deception; the difficulty is equal to your roll to make the document. Likewise, your roll is also the difficulty for any Investigation rolls to suss out your forgery."
+            },
+            {
+                "name": "Honest Lies",
+                "description": "Whenever incorporating a real, valuable piece of the truth (however marginally valuable it may be) into a lie, you gain a +2 on your efforts to pass off the untrue parts."
+            },
+            {
+                "name": "Make-Up Artist",
+                "description": ": Given enough time, you can create very convincing disguises, ones that will hold up to deeper inspection (although not to careful scrutiny and magic). Any attempt using Investigation or Alertness to see through your disguise is at an additional +2 difficulty."
+            },
+            {
+                "name": "Pick-Pocket",
+                "description": "Whether it’s a simple bump-andgrab or something more complicated, you’re adept at getting people to pay attention to other things while you or an accomplice liberates their pockets of their contents. You may use the Deceit skill to perform pick-pocketing with no increases in difficulty. This includes the filching of small items from a desk or someplace similar. Targets of this action usually oppose with Alertness."
+            },
+            {
+                "name": "Stage Magician",
+                "description": "You may attempt complicated stage magic tricks without penalty and gain a +1 on any attempts with Deceit to create quick distractions. This gives a +1 bonus to the PickPocket stunt, if you also have that."
+            },
+            {
+                "name": "Takes One to Know One",
+                "description": "You may use Deceit instead of Empathy to catch someone in a lie."
+            }
+        ]
+    },
+    {
+        "name": "Discipline",
+        "description": "Discipline represents your ability to stay focused on your goals and actions despite distractions, as well as the ability to protect yourself from the psychological fallout of awful or scary events. It’s what makes you able to conquer fear, resist torture, and recite boring math equations with such dedication that a psychic demon can’t bore into your mind. Characters with strong Discipline rarely let fear get the best of them and can perform a wide variety of stressful tasks without breaking their concentration. They include chess grandmasters, air traffic control operators, and wizards. Discipline is one of the three cornerstone skills for effective spellcasting, along with Conviction and Lore. See Feeding Dependency for how this skill affects a hunger stress track.",
+        "trappings": [
+            {
+                "name": "Concentration",
+                "description": "Many other skills may be used in circumstances where unusual concentration is necessary— such as using Burglary to pick a lock while you’re getting shot at. In such circumstances, the GM may ask that Discipline be used to restrict the skill being used, representing a small penalty if you are not skilled at keeping your focus. Other circumstances may arise where Discipline would be rolled to represent how well you remain focused on a particular task or idea."
+            },
+            {
+                "name": "Emotional Control",
+                "description": "Whenever you are trying to master your own emotions, Discipline is the skill you’ll use to do it. This could be as simple as rolling Discipline as a defense against an Intimidation attack or keeping your terror in check in order to avoid feeding the fear-eating monster next door. "
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Calm Blue Ocean",
+                "description": "You are skilled at keeping your emotions in check. Gain +2 to Discipline when rolling to keep emotions under control."
+            },
+            {
+                "name": "Supreme Concentration",
+                "description": "Your Discipline is considered to be Fantastic whenever Discipline would restrict, complement, or otherwise modify another skill. This has no effect on your actual Discipline rating when the skill itself is being rolled."
+            },
+            {
+                "name": "Unshakeable",
+                "description": "When defending against social or mental attacks with Discipline, any of your aspects (such as consequences or other temporary or permanent aspects) that get tagged provide only a +1. If the attacker chooses to tag for a reroll, you may \"lock down\" one of his dice, leaving him only the other three to re-roll."
+            }
+        ]
+    },
+    {
+        "name": "Driving",
+        "description": "Driving is your ability to operate a car (and potentially other vehicles). Day to day, it’s pretty easy and shouldn’t be rolled unless circumstances call for it (such as driving fast through busy streets, or in the rainy dark without headlights). With a high skill, you can pull off stunts you usually only see in the movies. Stunt men, mafia chauffeurs, and cops have a high Driving skill.",
+        "trappings": [
+            {
+                "name": "Chases",
+                "description": "Driving inevitably leads to car chases—one of the major trappings of this skill. In a chase, your Driving skill is used to close the distance between you and the car you’re chasing (or increase the distance if you’re the one being chased). It’s also used to bring quick resolution to the issues brought up by terrain and other obstacles. Car chases are usually handled using one of the extended contest options"
+            },
+            {
+                "name": "One Hand on the Wheel",
+                "description": "Trying to do something in a car? Roll Driving, simple as that. If you are trying to do something fancy, like driving and shooting at the same time, Driving will restrict the skill being used. Note that this trapping generally applies to physical actions that you can conceivably do while driving. Since Driving only restricts your other skill, there’s no way you could become better at doing something while you’re also driving a car—your aim won’t suddenly improve because you happen to be driving while you shoot at your target!"
+            },
+            {
+                "name": "Other Vehicles",
+                "description": "If your background reasonably suggests experience operating a vehicle other than a car, then Driving may be used to operate those vehicles as well, making this the skill for piloting boats, aircraft, and other motorized vehicles."
+            },
+            {
+                "name": "Street Knowledge and Navigation",
+                "description": "The modern city can be a confusing maze of streets and alley-ways, and being adept at Driving means you know your way around cities you’re familiar with (both behind the wheel and on foot). Under pressure, Driving is the skill for getting from point A to point B as fast as or faster than you need and for figuring out the best course. If you’re not familiar with a place, Driving is treated as Mediocre for the purpose of navigation."
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Been There",
+                "description": "Your Driving is never treated as Mediocre for purposes of navigation, even if a place is unfamiliar; use it at the full value instead."
+            },
+            {
+                "name": "Like the Back of My Hand",
+                "description": "Your knack for shortcuts gives you a +2 to Driving when using it for street knowledge and shortest-path navigation."
+            },
+            {
+                "name": "Pilot",
+                "description": "Your focus is on aircraft, not cars. Gain +1 to your Driving when piloting an aircraft; choose a specific kind that you’re best with (helicopters, jet airliners, personal aircraft) for an additional +1 when steering that type."
+            },
+            {
+                "name": "Shake the Tail",
+                "description": "When you are the one being followed in a car-chase, you have a real talent for sudden turns and daring maneuvers to shake off your pursuers. Gain a +2 to Driving in such a  case."
+            }
+        ]
+    },
+    {
+        "name": "Empathy",
+        "description": "Empathy is the ability to understand and guess what other people are thinking and feeling. This can be handy if you are trying to spot a liar or you want to tell someone what that person wants to hear. It’s also useful for keeping up your guard during a social conflict. Characters adept at Empathy are very perceptive about people and their motives and often end up as quiet masters of a social scene. They can include reporters, gamblers, and psychologists.",
+        "trappings": [
+            {
+                "name": "Reading People",
+                "description": "You can use Empathy to figure out what makes another character tick. After at least ten minutes of intense, personal interaction, you may make an Empathy roll against the target’s Rapport roll (the target might also choose to defend with Deceit). This is an assessment action and, as such, if you gain one or more shifts on your roll, you discover one of the target’s aspects that you weren’t already aware of. It may not reveal the name of the aspect in precise detail, but it should paint a good general picture. For instance, it might not give the name of someone’s brother, but it will reveal that he has a brother. You can repeat this process, taking longer each time, and ultimately reveal a number of aspects equal to your Empathy skill value (minimum of one)—so, a Fair skill (value 2) would allow you to reveal two aspects through at least two different rolls."
+            },
+            {
+                "name": "A Shoulder to Cry On",
+                "description": "Characters with Empathy are familiar with the emotional responses of other people and are able to effectively provide comfort and reassurance to those who are emotionally wounded. With the Empathy skill, you can create an environment for another character to justify recovery from mild social or mental consequences. Stunts are required to bring this trapping to the level that professional therapists have."
+            },
+            {
+                "name": "Social Defense",
+                "description": "Use Empathy as a defense in a social conflict (though it isn’t the only skill that can be used this way). In particular, you must use Empathy to defend against Deceit as you try to sort out truth from fiction in what you’re hearing"
+            },
+            {
+                "name": "Social Initiative",
+                "description": "Use Empathy to determine initiative (order of action) in any social conflict. To minimize on die-rolling, Empathy is usually taken simply at its listed value and used to determine the order of actions you and other characters take."
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Counselor",
+                "description": "You have some formal education in professional counseling or psychotherapy. Your skill can be used to justify another character’s recovery from moderate or severe social or mental consequences, provided you have the time and opportunity to provide them with the full extent of your services as a counselor."
+            },
+            {
+                "name": "Read the Surface",
+                "description": "You can get a sense of someone quickly when trying to \"read\" them. Your first attempt to read someone takes less than a minute of interaction, instead of the usual ten. Any subsequent efforts with the same person do not enjoy this benefit."
+            },
+            {
+                "name": "The Social Graces",
+                "description": "Keen awareness of the ebb and flow of social situations makes you the master of your circumstances. When determining initiative in a social conflict, gain +2 to Empathy."
+            },
+            {
+                "name": "Won’t Get Fooled Again",
+                "description": "It only takes once for someone to lie to you before you start to wise up to it. Once you’ve discovered a particular person’s lie for what it is, you gain a +2 on any future Empathy rolls when dealing with that liar. (This requires a small amount of book-keeping, but the benefits are worth it!)"
+            }
+        ]
+    },
+    {
+        "name": "Endurance",
+        "description": "Endurance is the ability to keep performing physical activity despite fatigue or injury. It’s a measure of your body’s resistance to shock and effort. In addition to addressing fatigue, Endurance is rolled as a defense when fending off poisons and disease. High Endurance characters can take more punishment than others and can keep going long after the competition has tuckered out. They include thugs, athletes, and rough-and-tumble private eyes. The Physical Fortitude trapping also adds to your physical stress track",
+        "trappings": [
+            {
+                "name": "Long-Term Action",
+                "description": "Endurance is a passive skill. You will very rarely need to ask to roll Endurance; instead, when strenuous activities have gone on for a while, the GM will call for rolls when appropriate. Particularly, Endurance can come into play in long-term actions as a restricting skill, where your ability to keep performing at peak is limited by how well you can overcome fatigue and pain. This is why the Endurance skill of top athletes is on par with (or better than) their Athletics skill. Without a solid Endurance skill, you may be a good sprinter but you will find yourself winded and falling behind in a marathon."
+            },
+            {
+                "name": "Physical Fortitude",
+                "description": "Endurance determines your ability to handle physical stress. Used this way, Endurance is again a passive ability, representing your \"toughness.\" As such, a higher than default rating in Endurance improves your ability to take physical stress by giving you more than the default number of physical stress boxes (2): (Mediocre: 2, Average|Fair: 3, Good|Great: 4, Superb+: 4 plus one additional mild physical consequence for each two full levels above good"
+            }
+        ],
+        "stunts": [
+            {
+                "name": "No Pain, No Gain",
+                "description": "You can take a bunch of punishment before it starts to add up. You may take two additional mild physical consequences."
+            },
+            {
+                "name": "Tireless",
+                "description": "Your Endurance is considered Fantastic whenever Endurance might restrict, complement, or otherwise modify another skill. This has no effect when Endurance is rolled directly, however."
+            },
+            {
+                "name": "Tough Stuff",
+                "description": ": The stuff of blunt trauma—fists, sticks, and stones—pose little trouble for you. Against such things, you have a natural Armor:1 (which stacks with other forms of protection). This does not apply to things like blades, bullets, and burns, but it makes you a beast in a burly brawl."
+            }
+        ]
+    },
+    {
+        "name": "Fists",
+        "description": "The Fists skill is your ability to hold your own in a fistfight, with no weapons available but your bare hands (with a few exceptions). With specialized training (represented by taking stunts), this may include the practice of a more disciplined kind of fisticuffs, such as martial arts. Characters with a high Fists skill are a blur of fists and feet in a fight—delivering sudden uppercuts and body-blows—and are pretty adept at not getting hit themselves. They include bouncers, thugs, and martial artists. Many of the restrictions on the uses of Fists (such as using certain close-combat weapons, or the sorts of things Fists can be used to defend against) can be set aside with the right kind of martial arts training. Invariably, this level of training is reflected with a few martial-artsoriented stunts such as those found on page 152. Without those stunts, you might still have some basic self-defense style training, but you haven’t yet attained the level of \"art.",
+        "trappings": [
+            {
+                "name": "Brawling",
+                "description": "As a combat skill, Fists is rolled to make attacks and maneuvers when you are using nothing other than your body to get the job done. Brass knuckles and the like allow you to use Fists, but in general, attacks that use a tool—be it a staff, knife, sword, or broken bottle—use the Weapons skill instead. Bare hands have the advantage that they’re always with you, but the disadvantage that they almost never offer a damage boost on a successful hit."
+            },
+            {
+                "name": "Close-Combat Defense",
+                "description": "Fists may be rolled as a defense against other Fists attacks and against short-reach, closequarters weapons such as knives and short clubs, representing the ability to block or dodge an opponent’s attacks. It can’t be used as a defense when the weapon arguably has a significant reach advantage (swords, staves, and guns), unless you can justify it as an unusual circumstance—e.g., \"My skin is bulletproof, so I should be able to block a sword if I do it right\" or \"I’m right next to the guy, so I’m going to try to push his arm aside as he makes the shot with the gun.\" As a rule, Fists can usually be justified as a defense against attacks that come from the same zone as you and rarely against attacks from outside that zone."
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Footwork",
+                "description": "You’re fast on your feet and have been in enough fistfights to know how to make yourself a hard target. You may use Fists to dodge attacks instead of Athletics, in all the circumstances where Athletics might apply."
+            },
+            {
+               "name": "Killer Blow",
+               "description": "Add 3 to the damage of a Fists attack on a successful hit, once per scene, for a fate point. This stacks with any other damageincreasing stunts for Fists." 
+            },
+            {
+                "name": "Martial Artist",
+                "description": "As a result of advanced training, you are able to recognize many styles of martial arts, using Fists as a knowledge and perception skill focused on unarmed fighting. This enables you to make assessments and declarations related to fighting styles and fighting culture using your Fists skill. This stunt may be used as a prerequisite for other Fists stunts."
+            },
+            {
+                "name": "Armed Arts",
+                "description": "Requires Martial Artist. You are practiced with a small number of weapons as part of your martial arts training. Pick two weapons which logically fit in with your training (nightstick and knife with cop training, for example). You may use the Fists skill instead of Weapons when wielding these implements."
+            },
+            {
+                "name": "Lethal Weapon",
+                "description": "Requires Martial Artist. Your hands are lethal weapons. When using Fists to strike an unarmored opponent, you are considered to have Weapon: 2."
+            },
+            {
+                "name": "Redirected Force",
+                "description": "Requires Martial Artist. You’re an expert at turning close-combat attacks (swung fists, thrust knives) against themselves. On a successful defense roll using Fists against such an attack, you may sacrifice your next action (giving this an effective limit of one per exchange) to treat the defense as a successful maneuver on your part (requiring no additional rolling), placing a maneuver aspect like Thrown to the Ground or Taken Off Balance on your attacker"
+            },
+            {
+                "name": "Step Into the Blow",
+                "description": "When you use Fists to defend against a close-quarters attack and fail that defense, you may sacrifice your next action to counterattack immediately (with Fists) at +1."
+            }
+        ]
+    },
+    {
+        "name": "Guns",
+        "description": "Sometimes you just need to shoot things. Thankfully, there’s a skill for that. With a gun, you can shoot up to two zones away — possibly three or more, if it’s a rifle (borders, may or may not count, depending on their nature). Unfortunately, without a gun at hand, the skill isn’t much use. Characters with a high Guns skill are masters of death; as a result, it’s rare to encounter one who doesn’t have a healthy respect for the dangers inherent in bringing out the weapons. Such characters include policemen, soldiers, assassins, and hunters. If someone is devoted to using Guns as a strong component of his fighting style, it can safely be assumed that he possesses at least one or two guns, regardless of Resources rating (though whether or not he will be allowed to carry such things wherever he goes is another matter entirely), so long as it fits the concept.",
+        "trappings": [
+            {
+                "name": "Aiming",
+                "description": "One popular maneuver among Guns users is aiming. This is done like nearly any other maneuver, with the idea that you take an action to place a temporary aspect on your target—e.g., In My Sights. On the subsequent exchange, you tag that temporary aspect to get a +2 on the roll, assuming the target hasn’t done something to rid himself of the aspect."
+            },
+            {
+                "name": "Gun Knowledge",
+                "description": "Guns users are also well-versed in a variety of small arms, large arms, and ammunitions, as well as the care and maintenance of firearms. You may use this skill as a limited sort of knowledge and repair skill covering those areas."
+            },
+            {
+                "name": "Gunplay",
+                "description": "Guns is an attack skill, by and large, though a creative player will undoubtedly come up with some maneuvers to attempt when shooting. As far as mundane, mortal weapons are concerned, guns are at the top of the heap in a fight. They’re deadly—getting large stress bonuses on successful hits, forcing consequences, concessions, and taken out results faster than other means of attack. Better yet, they operate at range, forcing unarmed opponents to take cover or close with you in order to be effective. As an attack, a gun also limits the defensive options available to a target. Targets are generally only able to roll Athletics as a defense, representing their ability to dodge and get out of the way of the gun—or otherwise present a difficult-to-hit target, like taking cover—before the shot’s taken. And guns are often the weapon of choice for an ambush which, when done right, leaves the victim’s defense skills locked down at Mediocre—easy to deliver a devastating shot. There are two downsides. First, a gun can be taken away from you, rendering this skill useless. Second, you can’t ever use the Guns skill as a defense, which means you need a strong Athletics skill to cover you, just in case. As a  result, Guns ends up being a bit of a one-note wonder—and while that’s one hell of a note, it can be pretty limiting at times, especially in neighborhoods where you’re likely to get the cops responding to reports of gunfire. Remember: when a gun is drawn, it’s a statement of intent to kill people. Even a great many supernatural creatures will take pause at the sight of a gun barrel pointed their way"
+            },
+            {
+                "name": "Other Projectile Weapons",
+                "description": "You can also use Guns to cover non-gun weapons that shoot at a distance, such as bows and other such artifacts, though usually with a penalty (–2) if you aren’t trained in their use. If, at the time you take the Guns skill, you decide your character is focused on using a method of shooting other than a gun, you may rename this skill to something more appropriate (e.g., Bows) and face the familiarity penalty when using actual guns instead. Under such an option, most Guns related stunts are still available with the unusual weapon."
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Fast Reload",
+                "description": "Provided that you have a supply of ammunition, reloads are rarely an issue. You take no penalty when reloading as a supplemental action; if you’re in a race to see who reloads first, or anything else having to do with your speed or ability to reload, gain a +1 on the roll."
+            },
+            {
+                "name": "Gun Nut",
+                "description": "Guns. Man, you know everything about them. You’ve seen them all, even the ones that nobody knows about. When rolling Guns as a knowledge skill, gain +2 on the roll."
+            },
+            {
+                "name": "Hand-Eye Coordination",
+                "description": "Shooting and throwing aren’t all that different, once you get familiar with ‘em. You may use the Guns skill instead of Weapons to throw manual projectiles (rocks, grenades, boomerangs)."
+            },
+            {
+                "name": "Pin Them Down",
+                "description": "When Aiming, the aspect you place on the target cannot be removed so long as they do not move out of the zone, and any attempts to leave the zone face an increased border of 1 as long as you continue to make Guns attacks against that target."
+            },
+            {
+                "name": "Target-Rich Environment",
+                "description": ": Gain a +1 to attacks with Guns whenever personally outnumbered in a firefight."
+            },
+            {
+                "name": "Way of the Bow",
+                "description": "To heck with guns; you’re more of a bow and arrow type. You may use Guns instead of Craftsmanship to build and repair such items, and your skill with them gives you an extra +1 damage on a successful hit."
+            }
+        ]
+    },
+    {
+        "name": "Intimidation",
+        "description": "Intimidation is the skill you use for producing a sudden, strong, negative emotion in a target— usually fear. With high Intimidation, you exude menace, choose exactly the right words to chill others to the bone, and get people to lose their cool in an instant. Bodyguards, mob enforcers, and \"bad\" cops have high Intimidation",
+        "trappings": [
+            {
+                "name": "The Brush-Off",
+                "description": "If things get to the point of a face-off, there are a lot of other actions an opponent can do other than stand there and be intimidated—such as disengage or pull out a weapon. However, one of the real strengths of Intimidation is that first flash of contact, when people instinctively get out of the way of someone intimidating. Used in this fashion, Intimidation can establish a powerful, menacing first impression. If you are actively doing something intimidating, you may roll a quick contest of Intimidation against the opponent’s Discipline or Presence. If successful, the target is taken aback for a moment, generally long enough for you to brush past them, though the target will usually have plenty of time to call for help if appropriate. This can’t be done in a fight or against any target who is already ready for a fight; but in those \"first contact\" situations, Intimidation is gold for control."
+            },
+            {
+                "name": "Interrogation",
+                "description": "Intimidation is the \"bad cop\" skill for interrogation situations—a special kind of application of the above trappings. It’s not a soft touch; it’s all about getting in the face of the perp and convincing him that you are the harbinger of his personal doom. Other social skills, such as Deceit and Rapport, are necessary to make it an interview rather than an interrogation and belong firmly in the \"good cop\" camp."
+            },
+            {
+                "name": "Provocation",
+                "description": "When you don’t control the situation well enough to make your target afraid, you can still use Intimidation—just not for the usual \"be scary\" purpose. Instead, psychological or social attacks may be made to provoke the target— usually by enraging them or otherwise getting them to lose their cool. Harry Dresden is particularly fond of this trapping and uses it to turn the tables on his captors whenever possible."
+            },
+            {
+                "name": "Social Attacks",
+                "description": "There are more graceful social skills for convincing people to do what you want, but few skills offer the pure efficiency of communicating that failure to comply may well result in some manner of harm. Nothing personal. You can use Intimidation as an attack to deal social stress, cutting through the usual niceties by making things blunt, ugly, and expedient. This can force someone to get to the point, make him spill the truth, or cause him to flinch and show weakness when surrounded by sharks. The target usually gets his choice of social skill to defend against such an attack—for whatever help that might offer him—so long as it’s appropriate to the attack. He might try Rapport to attempt to laugh it off, Presence to keep a poker face, Discipline to keep his cool."
+            },
+            {
+                "name": "Threats",
+                "description": "At its core, Intimidation is about putting the fear of you into someone. To manage this, you must be in a position to make a reasonable case that you actually can deliver some kind of harm or unpleasant circumstance to your target. You can achieve this with reputation, appearance, weaponry, or even with a good, scary speech. Ultimately, this is about power—defined here as your demonstrable ability to control the situation, rather than the victim’s control over it. Without this context, the victim may be at an advantage (+2) when defending, or may simply be untouchable by this method of psychological attack. Under certain conditions, Intimidation is one of the few skills able to deal direct mental stress (see \"Mental Conflicts,\") to a target as an attack, and you can use it both in physical and social conflict situations."
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Infuriate",
+                "description": "Scaring people isn’t your forte; seriously pissing them off, on the other hand, is right up your alley. Gain +2 to any roll when deliberately trying to get someone angry with you (a social or mental attack or a maneuver with such a goal). Any consequences (such as grudges) or temporary aspects that result must name you as the source and target of the anger."
+            },
+            {
+                "name": "Interrogator",
+                "description": "You use Intimidation to scare a \"perp\" or at least provoke strong reactions out of him. Those reactions should tell you something, even if you don’t get a confession out of your target. Once per scene, whenever you make a successful Intimidation attack while questioning someone, you can set aside the stress you’d inflict and instead treat the attack as a successful Empathy attempt to \"read\" that person."
+            },
+            {
+                "name": "Rule with Fear",
+                "description": "Taking this stunt establishes that your reputation is based on how scared people are of you, far more than anything else. Use Intimidation instead of Presence whenever rolling to represent your reputation."
+            },
+            {
+                "name": "Subtle Menace",
+                "description": "You don’t need the upper hand or to be in a position of power in order to be scary to someone. When the context of power is absent, or your victim is actually in a superior position, your victim does not get any advantage bonus (see Threats)."
+            },
+            {
+                "name": "You Don’t Want Any of This",
+                "description": " People stay out of your way—they know better. When performing a Brush-Off, gain a +2 on your roll."
+            }
+        ]
+    },
+    {
+        "name": "Investigation",
+        "description": "Investigation is the ability to look for things and, hopefully, find them. This is the skill you use to actively look for something—like searching a crime scene or trying to spot a hidden enemy that you know is somewhere near. Characters with a high Investigation discover the most hidden clues; when they focus their attention on something, they can perceive details more fully and deeply than others. These people include private investigators, reporters, and cops.",
+        "trappings": [
+            {
+                "name": "Eavesdropping",
+                "description": "You can use Investigation to focus attention on a target in order to perceive details that you might normally miss. For example, when trying to hear something that might be difficult to pick up on casually, roll Investigation. This makes a strong Investigation skill paramount for eavesdroppers and gossip hounds. All it requires is the investment of time and attention."
+            },
+            {
+                "name": "Examination",
+                "description": "Deliberately using an assessment action to look for clues, deep patterns, or hidden flaws in something most commonly calls for the Investigation skill. This makes Investigation the flip-side of Alertness: it is mindful, deliberate perception, in contrast to the passive perception of Alertness. An equivalent Investigation effort is nearly always going to yield better, more in-depth information than an Alertness effort would. The downside is that Investigation is far more timeconsuming—\"minutes to hours,\" as opposed to \"seconds to minutes.\" Also, this is the trapping used to verify the truth of information, whether it’s checking up on a rumor you got via Contacts or spotting a forged document in a pile of paperwork. "
+            },
+            {
+                "name": "Surveillance",
+                "description": "Surveillance is the art of using Investigation to keep track of a target over an extended period of time, whether by watching a fixed location or by following the target on foot through busy city streets. If the investigator is looking to keep an eye on his target without being seen, a second roll is necessary (using Stealth), per the Shadowing trapping on page 143. Long-term Surveillance may call for Endurance rolls as you begin to find it difficult to stay awake or keep from running off to a nearby bathroom. Equipment can aid the roll or remove the need for it entirely; a thermos of coffee and an empty bottle are practically \"musts\" in the professional surveillance business. Having a second person help out so you can take a break is a plus as well."
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Listening",
+                "description": "You can tune out your other senses and simply focus on your hearing, making you able to pick up faint sounds with astonishing clarity. Gain a +4 on your Investigation roll when Listening; however, your Alertness drops to Terrible while doing so, due to the exclusion of your other senses. If a conflict begins while you are Listening, it will take a full exchange for your Alertness to return to normal once you stop."
+            },
+            {
+                "name": "Pin the Tail",
+                "description": "You’re a tough person to shake once you get on someone’s trail. Gain +2 to your Investigation rolls when trying to keep track of a target during Surveillance. When Shadowing someone using Stealth, you may use Investigation to complement your Stealth skill."
+            },
+            {
+                "name": "Quick Eye",
+                "description": "When examining a location for clues, your eye is quick to pick out the visual details. Your first Investigation roll to determine deeper details about a scene is two time increments faster than usual."
+            },
+            {
+                "name": "Scene of the Crime",
+                "description": "You have a practiced eye when combing over a crime scene. In such a circumstance, you gain +1 to your Investigation roll and arrive at your findings one step faster than usual on the time table."
+            }
+        ]
+    },
+    {
+        "name": "Lore",
+        "description": "Lore represents your occult knowledge. Looking at the world at large, most people don’t have this skill or even know it exists. But for those who’ve studied the real teachings of the occult, Lore allows them to gain useful insight into the arcane elements of the mortal world. With a high Lore skill, you can pick up on mystical happenings that are nigh invisible to others, know and discover magical particulars when it comes to assembling the materials for spellcraft, and (in some cases) even perform basic rituals— given the right text. Mystics, monsters, and wizards have high Lore skills. Lore is one of the three cornerstone skills for effective spellcasting, along with Conviction and Discipline.",
+        "trappings": [
+            {
+                "name": "Arcane Research",
+                "description": "Above all, Lore is the skill used to research things related to arcane and occult principles. If you’re looking for the right way to fight a monster, the recipe for a potion, or a new protective incantation, Lore’s the skill to roll. Other than the subject matter, Lore behaves exactly like the Scholarship skill when it comes to the functions and methods of research, allowing most of Scholarship’s trappings to be used, with the focus changed to arcane and occult matters. When a library is needed, it must be rated for providing rare occult texts. Such libraries are few and far between, and thus true practitioners often must contact the spirit world for the needed information, be it in the form of a bound spirit, a demonic summoning, or some other ritual."
+            },
+            {
+                "name": "Common Ritual",
+                "description": "Anyone who can light a match can use it to set off a stick of dynamite—whether or not they can do it safely is another matter entirely. The same is true of the practice of \"common\" rituals— sometimes all you need is the untrained use of Lore plus a rare, arcane ritual text to contact and interact with mystic and dark powers from beyond. Common rituals that actually work are very rare. Most common rituals have been rendered powerless thanks to their distribution to the public. (Think of it this way: each common ritual out there represents a conduit to a specific supernatural power, but that entity has only a fixed amount of power it can send down that particular channel. The more people that are aware of a ritual, the more they pull power from that channel. Get too many trying to tap into the same power source, and soon there isn’t enough left for any person to grab power of any consequence. Thus, one of the White Council’s most effective ways to rob common rituals of their power is through wide publication and distribution in various \"new age\" texts and other books of the type.) When given an actual, usable common ritual, Lore is the skill of lighting the wick on the dynamite of that supernatural entity’s power. But unlike a stick of dynamite, that entity is a thinking being, usually with thousands of years of experience in outsmarting humans like you who come knocking and asking for power. More often than not, a common ritual blows up in your face. For more on spellcasting with common ritual."
+            },
+            {
+                "name": "Mystic Perception",
+                "description": "Exposure to arcane lore leads to a heightened awareness of the supernatural. In certain circumstances, you can substitute Lore for Alertness to pick up on supernatural details about a scene. These details should be extremely vague, limited to statements such as \"You’re getting a bad feeling about this\" or \"Something about this place is just…wrong.\" Used this way, Lore is more an indicator that there’s something weird happening rather than a lens through which to see the weird."
+            }
+        ],  
+        "stunts": [
+            {
+                "name": "Occultist (Specify)",
+                "description": "You’re an expert on a particular sub-section of arcane lore. This must be limited, but it can still cover a fair number of things, such as \"Vampires\" or \"Demons.\" Gain a +1 to Lore when researching things covered by such a topic. You must also define a deeper specialty within that category, such as \"Red Court Vampires\" or \"Hunter-Killer Demons,\" to gain an additional +1 (for a total of +2) whenever the research focuses on that narrower area. This stunt may be taken multiple times, as long as a different sub-section is defined. Multiple areas of expertise may overlap, however, and in such a case, the bonuses of multiple relevant stunts may stack."
+            },
+            {
+                "name": "Finely Tuned Third Eye",
+                "description": "Your \"sixth sense\" that can perceive the presence of a supernatural \"ick\" factor (see page 135) is unusually sensitive for a pure mortal. Gain +2 to your Lore whenever using it as an Alertness substitute to pick up on the presence of the supernatural. "
+            }
+        ]
+    },
+    {
+        "name": "Might",
+        "description": "Might is a measure of pure physical power, be it raw strength or simply the knowledge of how best to use the strength you have. Might is for lifting, moving, or breaking things. You can use the skill to add a measure of physical power to the efforts of another skill. Characters with a high Might are not supernaturally strong, but they can still bend, break, and lift things that are normally beyond the capabilities of everyday people. They include thugs, furniture movers, and wrestlers.",
+        "trappings": [
+            {
+                "name": "Breaking Things",
+                "description": "Might is the skill of choice for applying brute force to snap something into smaller pieces; it includes breaking boards, knocking down doors, and the like. Using Might, you can damage an item over time or break it with a single dramatic blow."
+            },
+            {
+                "name": "Exerting Force",
+                "description": "You can use Might indirectly to modify, complement, or restrict some skill uses. This represents the secondary influence of physical strength on the primary use of another skill. For example, climbing while carrying someone on your back might restrict a normal Athletics roll, whereas getting into a shoving contest with someone might let you roll Fists modified by Might."
+            },
+            {
+                "name": "Lifting Things",
+                "description": "Might controls how much you can lift, shift, or move. The weight of the thing you’re moving determines the difficulty for the roll, though this might be modified by things like leverage and other factors."
+            },
+            {
+                "name": "Wrestling",
+                "description": "In combat, Might can help you with particular applications of Fists and Weapons: if physical force is a very significant element at play, Might will modify the primary skill. Furthermore, if you successfully engage an opponent in a one-on-one exchange, you can potentially switch from Fists to Might as the primary combat skill by executing a hold or other wrestling move where it’s less about hitting than about overwhelming with physical force."
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Bend and Break",
+                "description": "When successfully breaking an object using your Might, increase the effect (stress, usually) by two steps."
+            },
+            {
+                "name": "Mighty Thews",
+                "description": "When determining approximate lifting capacity, consider your Might to be 2 steps higher than its actual rating."
+            },
+            {
+                "name": "Wrestler",
+                "description": "Hand-to-hand combat maneuvers to switch from Fists to Might are made at +2."
+            }
+        ]
+    },
+    {
+        "name": "Performance",
+        "description": "Performance represents your overall artistic ability, covering the gamut of endeavors that involve putting creative works before an audience (painting, dance, music, writing, and some elements of acting). This includes knowledge of composition as well as the performance itself. Characters with a high Performance are incredibly creative individuals, able to create poetry extemporaneously, dance well enough to make one’s heart soar, or put on an acting performance that will bring a crowd to standing ovation. They include actors, artists, and those with faerie blood.",
+        "trappings": [
+            {
+                "name": "Art Appreciation",
+                "description": "As a knowledge skill, Performance is identical to Scholarship, though the fields it applies to are more limited and more focused. Thanks to this narrowed focus on the fields of art and performance, a few shifts of success on a Performance roll may pay out more information when compared to the same number of shifts from a Scholarship roll."
+            },
+            {
+                "name": "Composition",
+                "description": "As a composition skill, Performance is fairly straightforward—you can make art of virtually any type, so long as you are familiar with and practiced in the medium, producing works of a quality equal to your skill. Without stunts, it’s probable that none of them will be masterpieces, but any art that’s Average or better can be displayed without any real embarrassment."
+            },
+            {
+                "name": "Creative Communication",
+                "description": "While Scholarship covers the technical building blocks of communication—language, grammar, and the like—Performance covers the creative expression of ideas and, as such, covers most means of broad communication like writing. These are not \"pure\" performances, however, and your other skills play a role in their application, so your writing is usually modified by your Scholarship. There are exceptions, such as dry, academic documents (which use pure Scholarship) and poetry (which uses just Performance). Public speaking is a similar creature, but it is more beholden to the charisma and presence of the speaker. In those cases, Performance modifies whatever skill (Rapport, Intimidation, Presence, or Deceit) you are using, so long as the communication has a creative component."
+            },
+            {
+                "name": "Playing to an Audience",
+                "description": "First and foremost, Performance is the skill of playing to an audience—producing a reaction in a crowd with creative expression, whether that’s acting or another art form. As such, you can use Performance to declare aspects on a scene when those aspects might arise from a moving performance, affecting everyone in a room at once. Usually, aspects declared by this method must be broad, indicating the mood of the crowd, rather than specific and targeted at individuals present. For example, if Malcolm Dresden is at a children’s party pulling rabbits out of hats and doing other assorted tricks, he might put the aspect Giggles and Delight on the scene, reflecting the general, joyous mood."
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Art Historian",
+                "description": "You not only create art, you’ve studied it deeply. Gain a +1 whenever using Performance as a knowledge or perception skill to research or study a work of art. Gain an additional +1 in a specific, broad area of art (e.g., music, painting, sculpture), and another +1 in a yet narrower area (e.g., pop music, Renaissance paintings, the Dada movement) for a total +3 whenever dealing with your area of greatest expertise."
+            },
+            {
+                "name": "Impersonator",
+                "description": "Given a few hours to study someone’s behavior and modes of speech, you may imitate their mannerisms and voice, using Performance instead of Deceit to convince someone you are that person. Without strongly controlling the circumstances (e.g., impersonating someone over the phone), such impersonations won’t last very long. If combined with the Makeup Artist stunt and plenty of preparation, you may use either Performance or Deceit to pull off a full impersonation, using the better skill for all relevant rolls and getting a +1 against Investigation rolls trying to penetrate the disguise. "
+            },
+            {
+                "name": "Poet",
+                "description": "You have an affinity for beauty in written and spoken language. Your Performance is at +2 when composing something with words and is considered to be two higher when used to modify a social skill."
+            },
+            {
+                "name": "Pointed Performance",
+                "description": "When performing for an audience, normally you can only create aspects on the scene that are broad, focused on general moods (Creepy as Hell, Let’s Party!, Uninhibited). With this stunt, you may make performances that target something more specific, perhaps directing that mood at a particular person or group. For instance, a satirist with this stunt could attempt to use his performance either to elicit a response from one person in the audience (The Jig Is Up) or to cause the audience to direct their mood toward that person (Check Out the Emperor’s New Clothes)."
+            }
+        ]
+    },
+    {
+        "name": "Presence",
+        "description": "Presence is a multi-faceted skill, representing attributes of leadership, reputation, and charisma. While Conviction represents your overall mental and psychological toughness, Presence is a measure of social toughness— whether or not you’ll flinch and lose face in front of others, and how your image stands up to scrutiny and/or attack. Characters with a high Presence carry themselves with a quiet confidence no matter the situation, and when they speak, others stop and listen. They include military officers, mob bosses, politicians, and lawyers. The Social Fortitude trapping also adds to your social stress track.",
+        "trappings": [
+            {
+                "name": "Charisma",
+                "description": "Presence is used passively whenever someone is trying to size you up socially. While the Rapport skill also covers your ability to reach out to others and make an impression, it is a deliberate, active skill in comparison to Presence. Much like the split between Investigation and Alertness, Rapport and Presence represent the active and passive sides of making an impression, respectively. As a rule of thumb, the GM may ask you to roll Presence to gauge impressions when you are not actively focusing your efforts on making one. Further, when you use Rapport to make a deliberate impression, you can call in Presence to complement the skill."
+            },
+            {
+                "name": "Command",
+                "description": "Use Presence to direct troops, workers, or any other group attempting a task. Any time you are in a position to give orders to a group of followers or functionaries, you may apply your Presence skill to help coordinate their efforts. This will allow you to make a Well-Coordinated or similar aspect available to whoever is rolling for the combined task, via a maneuver (see Playing the Game, page 207, for more details). You can also use the skill to get a largely undifferentiated mob of people to behave in a particular way, such as convincing a group of people to evacuate a building or to charge a line of police. If your action has a theatrical element to it, you can use Performance to modify the roll."
+            },
+            {
+                "name": "Reputation",
+                "description": "Presence can represent the strength of your reputation, in that it insulates you from the social maneuvers and attacks of others. This is not the same as fame or notoriety; it’s more a measure of how well you’re able to use your reputation to help you achieve social goals. To this end, there may be reputation-specific circumstances where you will roll Presence to defend against social attacks and maneuvers."
+            },
+            {
+                "name": "Social Fortitude",
+                "description": "When facing a direct attack like a smear campaign or simply the latest gossip on the streets, Presence is how well you comport yourself in an outward, social fashion. Combined with a strong showing in other social skills such as Rapport and Deceit, your Presence makes you particularly difficult to assail in a social scene. Used this way, Presence is a passive ability, representing your social \"toughness\" under such circumstances. A higher-than-default rating in Presence improves the ability to take social stress, giving you more than the default number of stress boxes (2) if you take this skill: (Mediocre: 2, Average|Fair: 3, Good|Great: 4, Superb+: 4 plus one additional mild social consequence for each two full levels above good."
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Leadership",
+                "description": "When you talk, people listen. When using Presence to command a group, gain +1 on the effort. Further, your efforts to coordinate a group are efficient, moving  one time increment faster than normal."
+            },
+            {
+                "name": "Personal Magnetism",
+                "description": " You have a calm confidence that others find appealing. When rolling Presence to establish a \"passive\" reaction to you (Charisma), make the roll at +2."
+            },
+            {
+                "name": "Teflon Persona",
+                "description": "It’s difficult to make you look bad in social conflicts. Provided that the people present are aware of who you are, you gain Armor:1 against any social attacks."
+            },
+            {
+                "name": "The Weight of Reputation",
+                "description": "Your reputation is such that it puts you in an easy position of power. People in power are good at scaring folks who aren’t. You may use your Presence instead of Intimidation to scare someone, provided the target knows of you and your \"rep."
+            }
+        ]
+    },
+    {
+        "name": "Rapport",
+        "description": "The flipside of Intimidation, Rapport is your ability to talk with people in a friendly fashion, make a good impression, and perhaps convince them to see your side of things. Any time you want to communicate without an implicit threat or attempted deception, this is the skill to use, making it appropriate for interviewing or making friends. Characters with a high Rapport can make strong first impressions and they make easy, friendly conversation in any social scene. They include politicians, reporters, and \"good cops.\"",
+        "trappings": [
+            {
+                "name": "Chit-Chat",
+                "description": "A character skilled in Rapport is a master of small talk and, through casual, friendly conversation, can get folks to give up information without quite realizing they’ve done it. In a social conflict, you may roll Rapport for maneuvers and \"attacks\" with this goal in mind. You can also use the skill creatively to grab someone’s attention and keep him distracted by conversation while something else is happening in the room."
+            },
+            {
+                "name": "Closing Down",
+                "description": "Rapport controls the face you show to the world—and that includes what you choose not to show. As such, when you try to use Empathy to get a read on someone, your attempt is opposed by Rapport as the default. If you simply wish to reveal nothing, you may use Rapport and take the equivalent of a full defensive action, gaining a +2 on the roll. This is over and above the default of a Rapport defense because it’s obvious you’re doing it: you’re closing down, wiping all emotions off your face. This means that closing down is a fairly obvious strategy—your opponent will know you’re doing it. It also requires that you be consciously aware that someone’s trying to read you. If you are trying not to look like you’re actively warding off the read, or if you aren’t really aware that you’re being read, then you aren’t taking a full defensive action and you don’t get the +2."
+            },
+            {
+                "name": "First Impressions",
+                "description": "The first time you meet someone, the GM may call for a quick Rapport roll to determine the impression you make (assuming you’re trying to make a good one). This may interact with the Presence skill, depending on the situation. Usually, succeeding at this roll can give you a beneficial temporary aspect such as I Look Good, which you might tag or invoke on socially related rolls in that scene. Be careful, though—failing significantly at such a roll could also change the situation for the worse, putting an I Look Bad aspect on you which could be used by someone else"
+            },
+            {
+                "name": "Opening Up",
+                "description": "Your skill in Rapport includes the ability to control which side of your personality you show to others by seeming to open up while actually guarding deeper secrets. Since you reveal only true things about yourself, this is not an inherently deceptive action involving the use of the Deceit skill. When you open up, you defend as usual against an Empathy \"read\" with Rapport. If your opponent succeeds and generates at least one shift, he finds something out, as usual (a failed defense roll is a failed defense roll after all). If you succeed, your opponent still discovers an aspect—but it’s one of your choosing. Used this way, you can effectively stonewall someone without the obvious (and unfriendly) poker face of Closing Down. In addition, you can always choose to reveal something that the other character already knows."
+            },
+            {
+                "name": "Social Defense",
+                "description": "Control of outward reactions and a general ease at conversation are both within the realm of Rapport, and both are useful in mounting a defense against social maneuvers and attacks. Only the rarest of social conflicts prevents you from using Rapport as your defense skill. Rapport is the go-to skill for rolling to defend in social conflicts, much like Athletics is the go-to skill for physical conflicts"
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Best Foot Forward",
+                "description": "People just like you, especially when you’re deliberately trying to make a good first impression. You gain a +1 on your roll to make a good first impression, and failing that roll cannot give you a negative temporary aspect or make the situation worse."
+            },
+            {
+                "name": "Let Me Tell You a Story...",
+                "description": "You have the gift of gab, able to draw the attention of others with colorful words and stories. This tends to leave your audience distracted. You may use Rapport instead of Deceit in order to mount a distraction, so long as you are able to talk to your targets."
+            },
+            {
+                "name": "Sex Appeal",
+                "description": " Folks attracted to people of your gender cannot help but notice you. You’ve got \"it.\" Receive a +2 to the roll on any seduction attempts you make with Rapport, provided that the target is someone who could be receptive to your advances."
+            }
+        ]
+    },
+    {
+        "name": "Resources",
+        "description": "Usually Resources is a measure of your available wealth, but the specific form this takes—from a secret family silver mine to a well-invested portfolio—can vary from character to character (and may be indicated and enhanced by your aspects). Characters with high Resources can buy their way into or out of most situations and can easily afford the finest luxuries of life. They include aristocrats, successful criminals, and businessmen. It’s important to note that Resources represents your personal resources, including your regular forms of income, whether your job is \"steady\" or not. You may have access to an organization’s resources under certain circumstances; this allows you to roll a different rating than your personal Resources skill. Rolling that way means you’re expending that organization’s resources, not your own. For example, a consultant for Monoc Securities might decide to acquire a private jet for corporate use. The consultant’s Resources might only be Fair (+2), but in this case the consultant rolls using Monoc’s expense account, rated at Fantastic (+6). ",
+        "trappings": [
+            {
+                "name": "Buying Things",
+                "description": "Usually, this skill passively informs the GM what your available resources are, but you may still actively roll Resources for large expenditures or expenses outside of the daily cost of living—like purchases and bribes. For an idea of the \"cost\" of things, see. The cost of items is measured on the adjective ladder; you can buy reasonable quantities of anything that’s two steps or more lower than your Resources without worrying about it (i.e., not rolling). With justification, you can probably also get things one step below your Resources. For items greater than or equal to your Resources, roll against the cost of the thing. If successful, you can afford the item; if not, you can’t. You can only make one Resources roll per scene. Some large-scale conflicts may be all about trying to outspend the other guy. Here, Resources might act as an attack or defense skill."
+            },
+            {
+                "name": "Equipment",
+                "description": "You are generally assumed to have all the tools you normally need to do your job, whether that job is fixing engines or shooting people. Still, sometimes a situation arises where you need to buy something, either because you didn’t anticipate needing it or because the item is unusual, rare, or illegal. When that happens, measure the price in terms of how much Resources it requires to access and purchase the item"
+            },
+            {
+                "name": "Lifestyle",
+                "description": "You are assumed to live in accordance with your means. If you’re rich, you may not even need to go shopping (you have people who do that). Generally speaking, if something costs two steps less than your Resources skill, you probably have one already, assuming it’s something that would make sense for you to have obtained previously."
+            },
+            {
+                "name": "Money Talks",
+                "description": "Wealth puts pressure on social interaction, either subtly or overtly. On the subtle level, whenever knowledge of your wealth affects a situation, the Resources skill may be used to modify the actual skill being used (usually a social one). If being less wealthy is actually seen as a positive in the situation (perhaps to gain some \"street cred\" or what-have-you), then the rules for modifying may be turned around, creating a –1 to the roll if Resources is above a particular level. More overtly, you may use Resources as the primary skill in a social interaction where an offer of money is the primary factor. Bribery is the clearest of such cases here, though negotiations to get a cash-strapped wizard-for-hire to sign on to a case may involve a Resources roll, as well."
+            },
+            {
+                "name": "Workspace",
+                "description": "Part of the passive measure of Resources is the personal tools and spaces you have access to. Workspaces are environments where you can perform a certain type of work, and owning and maintaining a world-class workshop, library, or arcane laboratory requires a certain amount of Resources. You use your Resources to set up the tools you need for your job. Your home may have, for free, a single library, lab, workshop, or arcane library or sanctum of a quality equal to two steps lower than your Resources. As described in Scholarship (see page 142), the quality of a workplace determines the highest possible difficulty of a \"question\" or project that you can pursue there. The breakdown of the various types of skills that need workspaces is shown in the following table. See the respective skills for more details. If you wish to have a specialized workspace, such as a workshop that can only work on guns, you may have it at a quality equal to one step lower than your Resources instead. Higher quality workspaces may be constructed, but they require a Resources roll with a difficulty equal to  the quality+2 (or +1 in the case of a specialized space) and are not immediately available at the time of purchase (though additional shifts may be spent to reduce the timeframe, as usual). Keep in mind that a library doesn’t have to be an actual, literal library full of books—any kind of archived, searchable information can be considered a library for game purposes. So, if you want to have something like a computer mainframe or set of hard drives that holds scanned documents on various topics, you could also consider that a library. Many actual libraries even have large computerized databases now, as opposed to older archival technologies like microfiche. By default, the Internet is a Mediocre library—extremely detailed information on a specialized topic is usually access-restricted or buried among useless and speculative information. If you want to, however, you can say that your library consists of access to specialized online databases (like Lexis-Nexis for lawyers) that would allow a higher quality rating"
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Filthy Lucre",
+                "description": "If it involves using money and other gifts in illegal or corrupt ways—bribery, mainly—you have a talent for making it work. Your dirty money travels farther, made frictionless by the greasy stain of it all. Gain a +2 to Resources whenever using it for illicit purposes."
+            },
+            {
+                "name": "Lush Lifestyle",
+                "description": "Your wealth is well-established and robust, making you the man or woman who has everything. Normally, someone may be assumed to have an item that costs two steps less than his Resources without having to seek it out and buy it, assuming that it makes sense for him to have attained it previously. In your case, it’s any item equal to or less than your Resources"
+            },
+            {
+                "name": "High Quality Workspace",
+                "description": "Instead of Resources–2, your \"automatic\" personal workspace is of a quality equal to your Resources. Alternately, it’s still Resources–2, but it’s able to fulfill two workspace functions (such as Academic as well as Arcane Research). This stunt may be taken multiple times to broaden the number of workspace functions available to you, but it may never be used to improve the quality above the level of your Resources skill."
+            },
+            {
+                "name": "Windfall",
+                "description": "You’re occasionally able to tap into more Resources than usual, such as cashing out stocks or receiving a periodic disbursement from a trust fund. Once per adventure, you may spend a fate point to make a single Resources roll at +4."
+            }
+        ]
+    },
+    {
+        "name": "Scholarship",
+        "description": "In the Dresdenverse, knowledge breaks down into two camps: mundane and supernatural. Lore covers the latter and Scholarship covers the former. Scholarship operates as a catch-all skill for most kinds of regular, everyday, \"book\" knowledge with a few practical applications out in the field as well. Characters with high Scholarship may be adept at technology and research, well-versed in the sciences and liberal arts, and good at performing first aid (provided they have experience with it). They include star students, professors, and game show contestants.",
+        "trappings": [
+            {
+                "name": "Answers",
+                "description": "The main use of Scholarship is to answer a question. Questions covered by Scholarship include those of history, literature, and the sciences both \"soft\" and \"hard.\" You can ask the GM, \"What do I know about this subject?\" or \"What does this mean?\" Often, there will be no need to roll, especially if the subject is within your specialty (as indicated by your background and aspects). But if the GM feels the information is something that should be hard to attain (such as a clue), then she may call for a roll against a difficulty she sets. If you succeed, you receive the information. If you fail, you may still attempt to research the topic (see the trapping by that name, below). In some cases (basically, whenever it might be entertaining), you may stumble onto a false lead that gets you deeper into trouble, or you may discover that the information you seek only uncovers deeper, unanswered questions."
+            },
+            {
+                "name": "Computer Use",
+                "description": "Assuming that you aren’t the sort of person to, say, cause technology to short out when you get near it, the Scholarship skill includes the ability to use and operate complex computerized or electronic systems. This doesn’t really include any competence at hacking, per se—Burglary is still used to actually defeat security measures and systems. However, Scholarship should modify Burglary whenever computers are involved."
+            },
+            {
+                "name": "Declaring Minor Details",
+                "description": "You may use your knowledge to declare facts, filling in minor details that the GM has not mentioned. These facts must be within the field of your Scholarship, and the GM has the right to veto them. If all’s well, the GM sets a difficulty for the truth of the assertion, and if you succeed at your Scholarship roll, the assertion is true. If not, you are mistaken. In most cases, this is treated as a straightup declaration action, as described on page 116. If your  assertion is correct (i.e., successful), the aspect is placed; it can be tagged once and then invoked as usual. If your assertion turns out to be wrong, there is no penalty, but there may be complications—at her option, the GM could place a temporary Mistaken! aspect on you, compelling it to represent the fallout (and netting you a fate point)."
+            },
+            {
+                "name": "Exposition and Knowledge Dumping",
+                "description": "Sometimes the GM just needs to give the group a lot of information, and the character with a high Scholarship skill tends to be the conduit of that. When the GM needs to knowledge dump, if you have the highest Scholarship skill, the GM may ask you if she can use you as a mouthpiece. Assuming you agree, the GM can share all appropriate background and is encouraged to give you a fate point for having your character temporarily commandeered for the purposes of the story"
+            },
+            {
+                "name": "Language",
+                "description": "Languages are part of a good classical education. You may speak a number of additional languages based on your Scholarship score (you don’t have to, if it doesn’t suit your concept). Each step of Scholarship above Mediocre gives you knowledge of one additional language (so one additional at Average, two at Fair, and so on). You don’t need to choose the languages when the character is created; you can instead choose languages in the course of play, as is convenient."
+            },
+            {
+                "name": "Medical Attention",
+                "description": "Scholarship covers the scientific and practical knowledge necessary to administer basic First Aid. This allows you to declare that your care is sufficient justification for recovery from mild consequences, because you can create an environment that makes this recovery possible. Stunts are necessary to take this to the level of true doctors and surgeons."
+            },
+            {
+                "name": "Research and Lab Work",
+                "description": "Researching a topic is frequently a timeconsuming and arduous task and exactly the sort of thing worth skimming over with a few quick dice rolls. Treat research as an extension of the knowledge the character has—you know the answers to some questions off the top of your head and can answer other questions because you know what book to look in. As such, deeper, dedicated research is something that might happen when you fail a Scholarship check. Provided you are willing to spend time researching (and that the answer can be found), the only questions are how long it will take you and how good a workspace you have access to (usually a library for book things, a laboratory for experimental research, etc.) to discover the answer. One important note: because the GM is not always obligated to reveal the difficulty of a given roll, you may not know how much you failed it by, which means you don’t know how long you’ll need to research. Usually you’ll just research until you find the answer, but sometimes, when time is tight, you might find yourself behind the eight-ball. GMs are encouraged to read \"Setting Difficulties\" before making any decision about how to deal with a failed roll. Academic research requires a library, while research through experimentation requires a laboratory. The quality of these workspaces determines the hardest possible question you can answer within them (so a question of Good difficulty requires a Good library or better). If you attempt to answer a question in a library that’s not equipped to answer it, the GM is encouraged to be up-front about its shortcomings. Most high schools and private individuals have Mediocre, Average, or Fair libraries. Small colleges often have Good libraries and laboratory facilities; larger institutions may have Great ones. Superb and better libraries are few and far between. Many workspaces also have a specialty or two where they are considered to be one step higher—for example, Georgetown’s library specializes in law, so it has a Great library which is treated as Superb for legal questions. Characters may own libraries, laboratories, and other workspaces of their own; see the Resources skill for more."
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Capable Researcher",
+                "description": "Some say you were born in a library. Any scholarly research you do is completed two time increments faster than usual—due in large part to the fact that you’ve probably read something about it before. (This ability does not extend to Lore research, which somehow never seems to go any faster no matter how good you are at the mundane stuff.)"
+            },
+            {
+                "name": "Doctor (Specify)",
+                "description": "You have a medical degree or the equivalent of such an education. You may use your Scholarship skill to declare appropriate justification for the recovery of moderate physical consequences when outside a medical facility, and for the recovery of severe physical consequences within a medical facility. For research purposes, gain +1 on Scholarship for any medical research and an additional +1 in a specific area of medicine. This stunt may be taken twice, with the bonuses on research stacking to indicate particularly deep or excellent medical knowledge (such as with a heart surgeon, etc.)."
+            },
+            {
+                "name": "Forgery Expert",
+                "description": "You are trained to distinguish forged documents from real ones. You gain a +2 on any roll to spot forgeries or falsified documentation"
+            },
+            {
+                "name": "Linguist",
+                "description": "You may speak (and read) additional languages as if your Scholarship score was 4 higher than it is. You may take this stunt multiple times, adding four more each time. Up to half of the languages you speak may be obscure, rare, or dead, provided you can establish an opportunity to study them."
+            },
+            {
+                "name": "Scientist (Specify)",
+                "description": "When using Scholarship to do scientific research, gain +1 in a particular area of focus (e.g., Biology, Chemistry, Physics). Gain an additional +1 in an even more specific area of specialization (e.g., Marine Biology, Organic Chemistry, Quantum Physics). A \"Scholar\" version of this stunt may be taken instead for something outside of the realm of science (e.g., Literature/19th Century Literature or History/ Chinese History)."
+            }
+        ]
+    },
+    {
+        "name": "Stealth",
+        "description": "Stealth is the ability to remain unseen and unheard. Directly opposed by Alertness or Investigation, Stealth covers everything from skulking in the shadows to hiding under the bed. Characters with a high Stealth are like ghosts, passing through the shadows with only the barest whisper of sound. They include burglars, assassins, and sneaky kids.",
+        "trappings": [
+            {
+                "name": "Ambush",
+                "description": "With the Stealth skill, you can set up an ambush by rolling to hide as per the Hiding trapping, below. Given time to prepare, you might even create aspects on the scene to set up the ambush. When you decide to strike, the victim gets one last Alertness roll to see if he notices something at the last moment. You have the option of keeping your hiding roll or rerolling your Stealth in response to this last Alertness roll. If the victim succeeds, he can defend normally (but not take a normal action in the first exchange). If the victim’s roll fails, he can only defend at an effective skill level of Mediocre."
+            },
+            {
+                "name": "Hiding",
+                "description": "When you’re hiding, you’re remaining perfectly still and (hopefully) out of sight. Lighting, obstacles, and other environmental factors can modify your roll, and the result of your Stealth roll is the basis for any contest with a searcher’s Alertness or Investigation."
+            },
+            {
+                "name": "Shadowing",
+                "description": "Something of a variant on Skulking, Shadowing is the art of following someone without them noticing that you’re doing it. When following someone on foot, the full Stealth skill can be used to pull this off; if you’re following a target by car, Stealth remains primary but is modified by your Driving  skill. The target usually gets an Alertness check to see if he can pick up on the fact that he’s being followed. This Stealth check is often made complementarily to an Investigation check required to keep the target in sight, as per the Surveillance trapping for that skill."
+            },
+            {
+                "name": "Skulking",
+                "description": "Skulking is the art of moving while trying to remain unnoticed. It uses many of the same rules as Hiding, above, but it adds in difficulty factors based on how fast you are moving and the terrain. A slow crawl isn’t much harder, but running is tough. Bare concrete isn’t much of an issue, but a scattering of dried leaves and twigs makes it much more difficult to move quietly"
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Blend In",
+                "description": "You blend into a crowd easily. If there’s a crowd to hide in, you gain +2 to your Stealth rolls. This is particularly useful when Shadowing someone on foot."
+            },
+            {
+                "name": "Stay Close and Keep Quiet!",
+                "description": "When sneaking around with a group, you are able to use your Stealth skill to complement everyone else’s Stealth skill as they roll to stay hidden and quiet, provided they stay nearby and follow your instructions. Failure on either of these points means they lose the benefits. If you have any aspects specific to your ability to sneak around, your companions may invoke those aspects for their benefit as well."
+            },
+            {
+                "name": "Swift and Silent",
+                "description": "When Skulking, any difficulty increases due to fast movement are reduced by up to two."
+            }
+        ]
+    },
+    {
+        "name": "Survival",
+        "description": "Survival is the skill of outdoorsmen, covering hunting, trapping, tracking, fire building, and a lot of other wilderness skills. Characters with a high Survival skill are adept at riding horses, can survive nearly indefinitely by living off the land, and can track a man in the wilderness for days. They include hunters, scouts, and soldiers. While the Dresdenverse is centered squarely on the urban landscape, Survival still has its place, either by venturing out into the countryside (say, to visit a crotchety old wizard who lives on a farm), stepping into a particularly large urban park, or making it through the night in the wilds of the Nevernever.",
+        "trappings": [
+            {
+                "name": "Animal Handling",
+                "description": "Survival covers the breadth of your interaction with animals—natural ones for certain, and even some supernatural types. This interaction ranges from calming them to training them to getting a rough kind of \"communication\" going. This includes handling beasts of burden and carriage animals as well as common pets. As such, Survival serves as a stand-in for all social skills when dealing with animals and other beasts. Which is not to say that animals are great conversationalists; but when you’re trying to soothe or stare down an animal, Survival is the skill to roll."
+            },
+            {
+                "name": "Camouflage",
+                "description": "Survival can be used to construct \"blinds\" and other ways to help remain hidden outdoors. On a Mediocre or better roll, you can construct a decent, disguised place to hide, which lets Survival complement your Stealth rolls."
+            },
+            {
+                "name": "Riding",
+                "description": "Riding horses (or camels, elephants, or more exotic creatures) uses Survival, with the skill operating much like Driving does when it comes to chases and most maneuvers. Further, Survival simply covers the basics of riding, from taking care of your mount to getting it to remain calm through a stressful situation."
+            },
+            {
+                "name": "Scavenging",
+                "description": "If you need to scrounge up something from the wilderness—sticks, bones, sharp rocks, vines that can serve as rope, and so on—you can roll Survival to find these things."
+            },
+            {
+                "name": "Tracking",
+                "description": "Tracking is the art of looking for recognizable signs of passage and the ability to draw conclusions that help you stay on the trail of your quarry. As this is partly an application of deliberate perception, the Investigation skill modifies Survival when you use the skill this way. Once you get close enough to your prey to be seen or heard by it, the Shadowing rules for Stealth come into play."
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Animal Handler (Specify)",
+                "description": "Roll Survival at +1 when using it for Animal Handling or, where relevant, Riding. Gain an additional +1 when dealing with a particular broad type of animal (birds, dogs, cats, horses) specified at the time you take this stunt."
+            },
+            {
+                "name": "Go Native",
+                "description": "You’re able to survive nearly indefinitely outdoors, living off the land. Scavenging rolls are made at +1, and the time between multiple rolls for a prolonged stay is increased by one increment."
+            },
+            {
+                "name": "Hunter",
+                "description": "As an experienced hunter, you know how to track game in the outdoors. Gain +2 on any efforts to use Survival to track something in the wilderness or other outdoor area."
+            }
+        ]
+    },
+    {
+        "name": "Weapons",
+        "description": "Weapons is the skill of fighting with tools: swords, knives, axes, clubs, whips, etc. (except guns). The exact weapon is more a choice of style than anything else, as this covers everything from fencing to a brawl using broken bottles and chair legs. Characters with a high Weapons skill are familiar with a variety of \"old school\" weapons and wield them with deadly accuracy. They include swordsmen, circus performers, and Special Forces soldiers.",
+        "trappings": [
+            {
+                "name": "Distance Weaponry",
+                "description": "The Weapons skill also covers the ability to use weapons with an unusually long reach (like a whip or long spear) to attack targets in adjacent zones or to throw small handheld weapons up to one zone away. Use this skill to be good at throwing knives as well as fighting with them. If you are Weapons-focused, you have a leg up on folks who fight with their Fists; on the other hand, a Weapons user needs to have a weapon in order to make use of the skill."
+            },
+            {
+                "name": "Melee Combat",
+                "description": "Weapons is a combat skill that is used to make attacks and maneuvers that incorporate the use of a physical weapon—such as knives, swords, clubs, and so on—but not bare hands (which uses the Fists skill) and not guns (which uses the Guns skill). When used to attack, melee weapons always deal physical stress. Weapons allow the character to maintain some reach and attack advantage over a barehanded opponent. On a successful attack, a handheld weapon often causes more physical stress than would a bare-fisted attack at the same level, making this a more wounding and lethal method of combat. The downside, of course, is that someone can take your weapon away from you, rendering this skill entirely unavailable."
+            },
+            {
+                "name": "Melee Defense",
+                "description": "As a combat skill, Weapons inherently carries the ability to defend yourself in a fight against other Weapons and Fists attacks, so long as you have a weapon in hand. (You still need Athletics to make yourself a difficult target against ranged fire from Guns.)"
+            },
+            {
+                "name": "Weapon Knowledge",
+                "description": "You are well-versed in a variety of fighting styles and weapons and you may use this skill as a knowledge skill covering those areas, such as \"This sword is from Solingen; I can tell from the hallmark.\""
+            }
+        ],
+        "stunts": [
+            {
+                "name": "Good Arm",
+                "description": "Thrown weapons normally have a range of only one zone. With this stunt that range extends to two zones."
+            },
+            {
+                "name": "Juggler",
+                "description": "Throwing deadly items around is just par for the course for you. Catching them is, too. Even bare-handed, you may use your Weapons skill to defend against a thrown attack, allowing you to catch the item if you succeed on the defense. In addition, you may use your Weapons skill instead of Performance in order to entertain an audience with your juggling."
+            },
+            {
+                "name": "Off-Hand Weapon Training",
+                "description": ": You know how to fight more effectively with two weapons in hand. Normally, you may only take the damage bonus from one weapon on a successful hit; with this stunt, you may add half of the second weapon’s bonus as well (round up)."
+            },
+            {
+                "name": "Riposte",
+                "description": "On a successful defense with Weapons, you may sacrifice your next action to turn that defense into an immediate and automatically successful attack."
+            },
+            {
+                "name": "Wall of Death",
+                "description": "Your skill with your weapon is such that you can attack several opponents at once, creating a veritable \"wall of death\" around you. This allows you to use the Weapons skill to make spray attacks with your melee weapon of choice against opponents that are in your zone."
+            }
+        ]
+    }
+]

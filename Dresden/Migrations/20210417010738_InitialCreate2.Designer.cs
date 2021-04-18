@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Dresden.Migrations
 {
     [DbContext(typeof(DresdenContext))]
-    [Migration("20210417003515_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20210417010738_InitialCreate2")]
+    partial class InitialCreate2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -22,8 +22,10 @@ namespace Dresden.Migrations
 
             modelBuilder.Entity("Dresden.Models.Skill", b =>
                 {
-                    b.Property<byte>("Id")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
@@ -49,8 +51,8 @@ namespace Dresden.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<byte>("SkillId")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("SkillId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -72,8 +74,8 @@ namespace Dresden.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<byte>("SkillId")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("SkillId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
