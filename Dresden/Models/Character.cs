@@ -5,6 +5,13 @@ namespace Dresden.Models
 {
     public class Character
     {
+        public Character()
+        {
+            CharacterVersions = new HashSet<CharacterVersion>();
+            Consequences = new HashSet<Consequence>();
+            TemporaryAspects = new HashSet<TemporaryAspect>();
+        }
+
         public int Id { get; set; }
         public int UserId { get; set; }
         public string Name { get; set; }

@@ -7,6 +7,13 @@ namespace Dresden.Models
 {
     public class CharacterVersion
     {
+        public CharacterVersion()
+        {
+            Aspects = new HashSet<CharacterAspect>();
+            Skills = new HashSet<CharacterSkill>();
+            Stunts = new HashSet<CharacterStunt>();
+        }
+
         public int Id { get; set; }
         public int CharacterId { get; set; }
         public int PhysicalStressBoxes { get; set; }

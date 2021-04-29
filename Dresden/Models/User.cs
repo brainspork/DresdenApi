@@ -5,6 +5,11 @@ namespace Dresden.Models
 {
     public class User
     {
+        public User()
+        {
+            Characters = new HashSet<Character>();
+        }
+
         public int Id { get; set; }
         public string Username { get; set; }
         public string Email { get; set; }

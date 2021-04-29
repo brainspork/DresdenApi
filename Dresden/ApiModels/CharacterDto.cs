@@ -15,6 +15,9 @@ namespace Dresden.ApiModels
         public int PhysicalStressBoxes { get; set; }
         public int MentalStressBoxes { get; set; }
         public int SocialStressBoxes { get; set; }
+        public int? PhysicalStressTaken { get; set; }
+        public int? MentalStressTaken { get; set; }
+        public int? SocialStressTaken { get; set; }
         public int BaseRefresh { get; set; }
         public IEnumerable<AspectDto> Aspects { get; set; }
         public IEnumerable<SkillDto> Skills { get; set; }
