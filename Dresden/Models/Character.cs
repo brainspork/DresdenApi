@@ -9,6 +9,10 @@ namespace Dresden.Models
         public int UserId { get; set; }
         public string Name { get; set; }
         public string Notes { get; set; }
+        public int? PhysicalStressTaken { get; set; }
+        public int? MentalStressTaken { get; set; }
+        public int? SocialStressTaken { get; set; }
+        public int? RefreshUsed { get; set; }
         public DateTimeOffset CreateUtc { get; set; }
         public DateTimeOffset? UpdateUtc { get; set; }
         public DateTimeOffset? DeleteUtc { get; set; }
