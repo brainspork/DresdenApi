@@ -6,16 +6,17 @@ namespace Dresden.Models
     {
         public DresdenContext(DbContextOptions options) : base(options) { }
 
-        public DbSet<Skill> Skills { get; set; }
-        public DbSet<Trapping> Trappings { get; set; }
-        public DbSet<Stunt> Stunts { get; set; }
-        public DbSet<Character> Characters { get; set; }
-        public DbSet<CharacterVersion> CharacterVersions { get; set; }
         public DbSet<CharacterAspect> CharacterAspects { get; set; }
+        public DbSet<Character> Characters { get; set; }
         public DbSet<CharacterSkill> CharacterSkills { get; set; }
         public DbSet<CharacterStunt> CharacterStunts { get; set; }
+        public DbSet<CharacterVersion> CharacterVersions { get; set; }
         public DbSet<Consequence> Consequences { get; set; }
+        public DbSet<Skill> Skills { get; set; }
+        public DbSet<Stunt> Stunts { get; set; }
         public DbSet<TemporaryAspect> TemporaryAspects { get; set; }
+        public DbSet<Trapping> Trappings { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -147,6 +148,20 @@ namespace Dresden.Models
             modelBuilder
                 .Entity<TemporaryAspect>()
                 .Property(ta => ta.Id)
+                .ValueGeneratedOnAdd();
+            #endregion
+
+            #region User
+            modelBuilder
+                .Entity<User>()
+                .HasMany(u => u.Characters)
+                .WithOne(c => c.User)
+                .HasForeignKey(c => c.UserId)
+                .IsRequired();
+
+            modelBuilder
+                .Entity<User>()
+                .Property(u => u.Id)
                 .ValueGeneratedOnAdd();
             #endregion
         }
