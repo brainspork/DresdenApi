@@ -10,6 +10,8 @@ namespace Dresden.Models
             CharacterVersions = new HashSet<CharacterVersion>();
             Consequences = new HashSet<Consequence>();
             TemporaryAspects = new HashSet<TemporaryAspect>();
+            PlayerGames = new HashSet<Game>();
+            NonPlayerGames = new HashSet<Game>();
         }
 
         public int Id { get; set; }
@@ -28,5 +30,7 @@ namespace Dresden.Models
         public ICollection<CharacterVersion> CharacterVersions { get; set; }
         public ICollection<Consequence> Consequences { get; set; }
         public ICollection<TemporaryAspect> TemporaryAspects { get; set; }
+        public ICollection<Game> PlayerGames { get; set; }
+        public ICollection<Game> NonPlayerGames { get; set; }
     }
 }

@@ -1,4 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Dresden.Models
 {
@@ -12,6 +14,7 @@ namespace Dresden.Models
         public DbSet<CharacterStunt> CharacterStunts { get; set; }
         public DbSet<CharacterVersion> CharacterVersions { get; set; }
         public DbSet<Consequence> Consequences { get; set; }
+        public DbSet<Game> Games { get; set; }
         public DbSet<Skill> Skills { get; set; }
         public DbSet<Stunt> Stunts { get; set; }
         public DbSet<TemporaryAspect> TemporaryAspects { get; set; }
@@ -20,6 +23,11 @@ namespace Dresden.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            foreach (var relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
+            {
+                relationship.DeleteBehavior = DeleteBehavior.Restrict;
+            }
+
             base.OnModelCreating(modelBuilder);
 
             #region Skills
@@ -28,6 +36,7 @@ namespace Dresden.Models
                 .HasMany(s => s.Trappings)
                 .WithOne(t => t.Skill)
                 .HasForeignKey(t => t.SkillId)
+                
                 .IsRequired();
 
             modelBuilder
@@ -35,6 +44,7 @@ namespace Dresden.Models
                 .HasMany(s => s.Stunts)
                 .WithOne(st => st.Skill)
                 .HasForeignKey(st => st.SkillId)
+                
                 .IsRequired();
 
             modelBuilder
@@ -42,6 +52,7 @@ namespace Dresden.Models
                 .HasMany<CharacterSkill>()
                 .WithOne(cs => cs.Skill)
                 .HasForeignKey(cs => cs.SkillId)
+                
                 .IsRequired();
 
             modelBuilder
@@ -78,6 +89,7 @@ namespace Dresden.Models
                 .HasMany(c => c.CharacterVersions)
                 .WithOne(cv => cv.Character)
                 .HasForeignKey(cv => cv.CharacterId)
+                
                 .IsRequired();
 
             modelBuilder
@@ -85,6 +97,7 @@ namespace Dresden.Models
                 .HasMany(c => c.Consequences)
                 .WithOne(c => c.Character)
                 .HasForeignKey(c => c.CharacterId)
+                
                 .IsRequired();
 
             modelBuilder
@@ -92,6 +105,7 @@ namespace Dresden.Models
                 .HasMany(c => c.TemporaryAspects)
                 .WithOne(ta => ta.Character)
                 .HasForeignKey(ta => ta.CharacterId)
+                
                 .IsRequired();
 
             modelBuilder
@@ -99,6 +113,7 @@ namespace Dresden.Models
                 .HasMany(cv => cv.Aspects)
                 .WithOne(ca => ca.CharacterVersion)
                 .HasForeignKey(ca => ca.CharacterVersionId)
+                
                 .IsRequired();
 
             modelBuilder
@@ -106,6 +121,7 @@ namespace Dresden.Models
                 .HasMany(cv => cv.Skills)
                 .WithOne(cs => cs.CharacterVersion)
                 .HasForeignKey(cs => cs.CharacterVersionId)
+                
                 .IsRequired();
 
             modelBuilder
@@ -113,6 +129,7 @@ namespace Dresden.Models
                 .HasMany(cv => cv.Stunts)
                 .WithOne(cs => cs.CharacterVersion)
                 .HasForeignKey(cs => cs.CharacterVersionId)
+                
                 .IsRequired();
 
             modelBuilder
@@ -157,12 +174,35 @@ namespace Dresden.Models
                 .HasMany(u => u.Characters)
                 .WithOne(c => c.User)
                 .HasForeignKey(c => c.UserId)
+                
                 .IsRequired();
 
             modelBuilder
                 .Entity<User>()
                 .Property(u => u.Id)
                 .ValueGeneratedOnAdd();
+            #endregion
+
+            #region Game
+            modelBuilder
+                .Entity<Game>()
+                .HasMany(g => g.PlayerCharacters)
+                .WithMany(c => c.PlayerGames)
+                .UsingEntity<Dictionary<string, object>>(
+                    "GamePlayerCharacter",
+                    gpc => gpc.HasOne<Character>().WithMany().HasForeignKey("CharacterId").OnDelete(DeleteBehavior.Restrict),
+                    gpc => gpc.HasOne<Game>().WithMany().HasForeignKey("GameId").OnDelete(DeleteBehavior.Restrict)
+                );
+
+            modelBuilder
+                .Entity<Game>()
+                .HasMany(g => g.NonPlayerCharacters)
+                .WithMany(c => c.NonPlayerGames)
+                .UsingEntity<Dictionary<string, object>>(
+                    "GameNonPlayerCharacter",
+                    gpc => gpc.HasOne<Character>().WithMany().HasForeignKey("CharacterId").OnDelete(DeleteBehavior.Restrict),
+                    gpc => gpc.HasOne<Game>().WithMany().HasForeignKey("GameId").OnDelete(DeleteBehavior.Restrict)
+                );
             #endregion
         }
     }
