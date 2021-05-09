@@ -68,7 +68,7 @@ namespace Dresden.Controllers
                         { 
                             Aspect = c.Aspect,
                             Id = c.Id,
-                            StressAmount = c.StressAmount
+                            StressType = c.StressType
                         }),
                         TemporaryAspects = c.TemporaryAspects.Where(ta => !ta.DeleteUtc.HasValue).Select(ta => new TemporaryAspectDto
                         {
@@ -121,6 +121,7 @@ namespace Dresden.Controllers
                         }),
                         Stunts = cv.Stunts.Where(s => !s.DeleteUtc.HasValue).Select(s => new StuntDto
                         {
+                            Cost = s.Stunt.RefreshCost,
                             Name = s.Stunt.Name,
                             Notes = s.Notes,
                             StuntId = s.StuntId
@@ -129,7 +130,7 @@ namespace Dresden.Controllers
                         {
                             Aspect = c.Aspect,
                             Id = c.Id,
-                            StressAmount = c.StressAmount
+                            StressType = c.StressType
                         }),
                         TemporaryAspects = c.TemporaryAspects.Where(ta => !ta.DeleteUtc.HasValue).Select(ta => new TemporaryAspectDto
                         {
@@ -203,8 +204,8 @@ namespace Dresden.Controllers
             return "OK";
         }
 
-        [HttpPost("{id}")]
-        public string Post(int id, CharacterVersionDto characterVersion)
+        [HttpPut("{id}")]
+        public string Put(int id, CharacterVersionDto characterVersion)
         {
             var timestamp = DateTimeOffset.UtcNow;
             var characterInfo = (from c in _db.Characters
@@ -291,14 +292,14 @@ namespace Dresden.Controllers
             foreach(var consequence in character.Consequences)
             {
                 var matchingConsequence = currentCharacter.Consequences
-                    .Where(c => c.StressAmount == consequence.StressAmount && c.Aspect == c.Aspect && !c.DeleteUtc.HasValue)
+                    .Where(c => c.StressType == consequence.StressType && c.Aspect == c.Aspect && !c.DeleteUtc.HasValue)
                     .FirstOrDefault();
 
                 if (matchingConsequence == null)
                 {
                     currentCharacter.Consequences.Add(new Consequence
                     {
-                        StressAmount = consequence.StressAmount,
+                        StressType = consequence.StressType,
                         Aspect = consequence.Aspect,
                         CreateUtc = timestamp
                     });
@@ -308,7 +309,7 @@ namespace Dresden.Controllers
             foreach(var consequence in currentCharacter.Consequences.Where(c => !c.DeleteUtc.HasValue))
             {
                 var matchingConsequence = character.Consequences
-                    .Where(c => c.StressAmount == consequence.StressAmount && c.Aspect == c.Aspect)
+                    .Where(c => c.StressType == consequence.StressType && c.Aspect == c.Aspect)
                     .FirstOrDefault();
 
                 if (matchingConsequence == null)

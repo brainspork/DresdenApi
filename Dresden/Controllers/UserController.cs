@@ -18,6 +18,24 @@ namespace Dresden.Controllers
             _db = db;
         }
 
+        [HttpGet("{id}")]
+        public UserDto Get(int id)
+        {
+            return _db.Users
+                .Where(u => u.Id == id)
+                .Select(u => new UserDto
+                {
+                    UserId = u.Id,
+                    CreateUtc = u.CreateUtc,
+                    DeleteUtc = u.DeleteUtc,
+                    Email = u.Email,
+                    FirstName = u.FirstName,
+                    LastName = u.FirstName,
+                    UpdateUtc = u.UpdateUtc,
+                    Username = u.Username
+                }).FirstOrDefault();
+        }
+
         [HttpPost]
         public string Post(UserDto user)
         {

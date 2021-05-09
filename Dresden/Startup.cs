@@ -29,6 +29,14 @@ namespace Dresden
         {
             services.AddDbContext<DresdenContext>(opts => opts.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
+            services.AddCors(opts =>
+            {
+                opts.AddDefaultPolicy(builder =>
+                {
+                    builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+                });
+            });
+
             services.AddControllers();
         }
 
@@ -43,6 +51,8 @@ namespace Dresden
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors();
 
             app.UseAuthorization();
 
