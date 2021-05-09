@@ -60,7 +60,9 @@ namespace Dresden.Controllers
                         }),
                         Stunts = cv.Stunts.Where(s => !s.DeleteUtc.HasValue).Select(s => new StuntDto
                         {
+                            Cost = s.Stunt.RefreshCost,
                             Name = s.Stunt.Name,
+                            Description = s.Stunt.Description,
                             Notes = s.Notes,
                             StuntId = s.StuntId
                         }),
@@ -124,6 +126,7 @@ namespace Dresden.Controllers
                         {
                             Cost = s.Stunt.RefreshCost,
                             Name = s.Stunt.Name,
+                            Description = s.Stunt.Description,
                             Notes = s.Notes,
                             StuntId = s.StuntId
                         }),
