@@ -68,7 +68,8 @@ namespace Dresden.Controllers
                         { 
                             Aspect = c.Aspect,
                             Id = c.Id,
-                            StressType = c.StressType
+                            StressType = c.StressType,
+                            StressCategory = c.StressCategory
                         }),
                         TemporaryAspects = c.TemporaryAspects.Where(ta => !ta.DeleteUtc.HasValue).Select(ta => new TemporaryAspectDto
                         {
@@ -130,7 +131,8 @@ namespace Dresden.Controllers
                         {
                             Aspect = c.Aspect,
                             Id = c.Id,
-                            StressType = c.StressType
+                            StressType = c.StressType,
+                            StressCategory = c.StressCategory
                         }),
                         TemporaryAspects = c.TemporaryAspects.Where(ta => !ta.DeleteUtc.HasValue).Select(ta => new TemporaryAspectDto
                         {
@@ -300,6 +302,7 @@ namespace Dresden.Controllers
                     currentCharacter.Consequences.Add(new Consequence
                     {
                         StressType = consequence.StressType,
+                        StressCategory = consequence.StressCategory,
                         Aspect = consequence.Aspect,
                         CreateUtc = timestamp
                     });
@@ -309,7 +312,11 @@ namespace Dresden.Controllers
             foreach(var consequence in currentCharacter.Consequences.Where(c => !c.DeleteUtc.HasValue))
             {
                 var matchingConsequence = character.Consequences
-                    .Where(c => c.StressType == consequence.StressType && c.Aspect == c.Aspect)
+                    .Where(c => 
+                        c.StressType == consequence.StressType 
+                        && c.Aspect == consequence.Aspect 
+                        && c.StressCategory == consequence.StressCategory
+                     )
                     .FirstOrDefault();
 
                 if (matchingConsequence == null)
@@ -336,11 +343,11 @@ namespace Dresden.Controllers
 
             foreach (var tempAspect in currentCharacter.TemporaryAspects.Where(t => !t.DeleteUtc.HasValue))
             {
-                var matchingConsequence = character.TemporaryAspects
+                var matchingAspect = character.TemporaryAspects
                     .Where(t => t.Name == tempAspect.Name)
                     .FirstOrDefault();
 
-                if (matchingConsequence == null)
+                if (matchingAspect == null)
                 {
                     tempAspect.DeleteUtc = timestamp;
                 }

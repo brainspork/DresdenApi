@@ -10,11 +10,20 @@ namespace Dresden.Models
         Extreme = 8
     }
 
+    public enum StressCategory
+    {
+        Any,
+        P,
+        M,
+        S
+    }
+
     public class Consequence
     {
         public int Id { get; set; }
         public int CharacterId { get; set; }
         public StressType StressType { get; set; }
+        public StressCategory StressCategory { get; set; }
         public string Aspect { get; set; }
         public DateTimeOffset CreateUtc { get; set; }
         public DateTimeOffset? DeleteUtc { get; set; }

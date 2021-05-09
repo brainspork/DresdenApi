@@ -6,6 +6,7 @@ namespace Dresden.ApiModels
     {
         public int Id { get; set; }
         public StressType StressType { get; set; }
+        public StressCategory StressCategory { get; set; }
         public string Aspect { get; set; }
     }
 }
