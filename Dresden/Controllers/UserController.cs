@@ -18,11 +18,11 @@ namespace Dresden.Controllers
             _db = db;
         }
 
-        [HttpGet("{id}")]
-        public UserDto Get(int id)
+        [HttpGet("{username}")]
+        public UserDto Get(string username)
         {
             return _db.Users
-                .Where(u => u.Id == id)
+                .Where(u => u.Username == username)
                 .Select(u => new UserDto
                 {
                     UserId = u.Id,

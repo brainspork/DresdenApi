@@ -42,6 +42,7 @@ namespace Dresden.Controllers
                         MentalStressTaken = c.MentalStressTaken,
                         SocialStressTaken = c.SocialStressTaken,
                         BaseRefresh = cv.BaseReferesh,
+                        RefreshUsed = c.RefreshUsed,
                         CharacterCreateUtc = c.CreateUtc,
                         CharacterUpdateUtc = c.UpdateUtc,
                         CharacterDeleteUtc = c.DeleteUtc,
@@ -106,6 +107,7 @@ namespace Dresden.Controllers
                         MentalStressTaken = c.MentalStressTaken,
                         SocialStressTaken = c.SocialStressTaken,
                         BaseRefresh = cv.BaseReferesh,
+                        RefreshUsed = c.RefreshUsed,
                         CharacterCreateUtc = c.CreateUtc,
                         CharacterUpdateUtc = c.UpdateUtc,
                         CharacterDeleteUtc = c.DeleteUtc,
@@ -292,12 +294,18 @@ namespace Dresden.Controllers
             currentCharacter.PhysicalStressTaken = character.PhysicalStressTaken;
             currentCharacter.MentalStressTaken = character.MentalStressTaken;
             currentCharacter.SocialStressTaken = character.SocialStressTaken;
+            currentCharacter.RefreshUsed = character.RefreshUsed;
             currentCharacter.UpdateUtc = timestamp;
 
             foreach(var consequence in character.Consequences)
             {
                 var matchingConsequence = currentCharacter.Consequences
-                    .Where(c => c.StressType == consequence.StressType && c.Aspect == c.Aspect && !c.DeleteUtc.HasValue)
+                    .Where(c => 
+                        c.StressType == consequence.StressType 
+                        && c.StressCategory == consequence.StressCategory
+                        && c.Aspect == consequence.Aspect
+                        && !c.DeleteUtc.HasValue
+                     )
                     .FirstOrDefault();
 
                 if (matchingConsequence == null)
@@ -317,8 +325,8 @@ namespace Dresden.Controllers
                 var matchingConsequence = character.Consequences
                     .Where(c => 
                         c.StressType == consequence.StressType 
-                        && c.Aspect == consequence.Aspect 
                         && c.StressCategory == consequence.StressCategory
+                        && c.Aspect == consequence.Aspect
                      )
                     .FirstOrDefault();
 
