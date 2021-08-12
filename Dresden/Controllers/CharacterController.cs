@@ -121,7 +121,7 @@ namespace Dresden.Controllers
                         Skills = cv.Skills.Where(s => !s.DeleteUtc.HasValue).Select(s => new SkillDto
                         {
                             Name = s.Skill.Name,
-                            SkillId = s.Id,
+                            SkillId = s.Skill.Id,
                             SkillLevel = s.SkillLevel
                         }),
                         Stunts = cv.Stunts.Where(s => !s.DeleteUtc.HasValue).Select(s => new StuntDto
